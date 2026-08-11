@@ -1,0 +1,61 @@
+issue_key,url,summary,issue_type,status,priority,assignee_login,assignee_account_id,story_points,created_date,updated_date
+ATLAS-1403,https://acmebank.atlassian.net/browse/ATLAS-1403,Fix validator failure when scheduler file arrives late,Task,To Do,Medium,asharma,5f8a1c001,1,2026-07-11,2026-08-01
+ATLAS-1407,https://acmebank.atlassian.net/browse/ATLAS-1407,Upgrade library used by date handling,Story,To Do,Highest,asharma,5f8a1c001,3,2026-08-03,2026-08-04
+ATLAS-1409,https://acmebank.atlassian.net/browse/ATLAS-1409,Reduce memory footprint of warehouse load step,Story,Blocked,Highest,asharma,5f8a1c001,1,2026-07-22,2026-08-10
+ATLAS-1418,https://acmebank.atlassian.net/browse/ATLAS-1418,Upgrade library used by SLA alert,Story,To Do,Medium,asharma,5f8a1c001,3,2026-06-12,2026-06-21
+ATLAS-1421,https://acmebank.atlassian.net/browse/ATLAS-1421,Add monitoring for GL export validator,Bug,In Review,Medium,asharma,5f8a1c001,5,2026-07-30,2026-08-09
+ATLAS-1422,https://acmebank.atlassian.net/browse/ATLAS-1422,Handle duplicate records in statement gen,Task,To Do,Medium,asharma,5f8a1c001,3,2026-06-27,2026-07-11
+ATLAS-1427,https://acmebank.atlassian.net/browse/ATLAS-1427,Add monitoring for posting cache,Task,To Do,Medium,jchen,5f8a1c002,5,2026-07-21,2026-07-27
+ATLAS-1435,https://acmebank.atlassian.net/browse/ATLAS-1435,Fix batch step failure when scheduler file arrives late,Story,In Review,High,jchen,5f8a1c002,1,2026-07-18,2026-08-07
+ATLAS-1443,https://acmebank.atlassian.net/browse/ATLAS-1443,Fix cache failure when scheduler file arrives late,Task,In Progress,Medium,jchen,5f8a1c002,5,2026-07-10,2026-07-12
+ATLAS-1451,https://acmebank.atlassian.net/browse/ATLAS-1451,Fix file writer failure when risk calc file arrives late,Story,In Progress,Low,jchen,5f8a1c002,1,2026-06-29,2026-07-29
+ATLAS-1456,https://acmebank.atlassian.net/browse/ATLAS-1456,Backfill historical data for risk calc,Bug,Blocked,Medium,jchen,5f8a1c002,5,2026-06-25,2026-08-01
+ATLAS-1457,https://acmebank.atlassian.net/browse/ATLAS-1457,Reduce memory footprint of posting step,Story,In Progress,Medium,jchen,5f8a1c002,2,2026-07-07,2026-07-30
+ATLAS-1461,https://acmebank.atlassian.net/browse/ATLAS-1461,Backfill historical data for posting,Bug,To Do,Medium,mrodriguez,5f8a1c003,8,2026-07-11,2026-07-24
+ATLAS-1464,https://acmebank.atlassian.net/browse/ATLAS-1464,Handle duplicate records in risk calc,Bug,Blocked,Low,mrodriguez,5f8a1c003,8,2026-06-14,2026-07-12
+ATLAS-1471,https://acmebank.atlassian.net/browse/ATLAS-1471,Migrate settlement job to new scheduler,Story,In Progress,Medium,mrodriguez,5f8a1c003,1,2026-07-22,2026-07-27
+ATLAS-1474,https://acmebank.atlassian.net/browse/ATLAS-1474,Migrate statement gen job to new scheduler,Task,To Do,Medium,mrodriguez,5f8a1c003,1,2026-07-20,2026-07-30
+ATLAS-1477,https://acmebank.atlassian.net/browse/ATLAS-1477,Improve feed loader throughput for month-end volumes,Bug,In Progress,Medium,mrodriguez,5f8a1c003,5,2026-06-22,2026-07-25
+ATLAS-1479,https://acmebank.atlassian.net/browse/ATLAS-1479,Add monitoring for posting date handling,Bug,In Progress,Medium,kpatel,5f8a1c004,1,2026-07-06,2026-08-01
+ATLAS-1480,https://acmebank.atlassian.net/browse/ATLAS-1480,Migrate scheduler job to new scheduler,Task,To Do,Highest,kpatel,5f8a1c004,5,2026-07-30,2026-07-31
+ATLAS-1484,https://acmebank.atlassian.net/browse/ATLAS-1484,Refactor cache used by GL export,Task,To Do,Highest,kpatel,5f8a1c004,2,2026-06-27,2026-07-22
+ATLAS-1492,https://acmebank.atlassian.net/browse/ATLAS-1492,Refactor retry logic used by posting,Story,In Review,Low,kpatel,5f8a1c004,3,2026-07-07,2026-08-07
+ATLAS-1497,https://acmebank.atlassian.net/browse/ATLAS-1497,Improve recon throughput for month-end volumes,Task,In Progress,Medium,kpatel,5f8a1c004,5,2026-07-06,2026-07-17
+ATLAS-1498,https://acmebank.atlassian.net/browse/ATLAS-1498,Fix rounding failure when worklog sync file arrives late,Task,To Do,High,kpatel,5f8a1c004,3,2026-06-18,2026-07-22
+ATLAS-1504,https://acmebank.atlassian.net/browse/ATLAS-1504,Handle duplicate records in scheduler,Story,To Do,High,kpatel,5f8a1c004,5,2026-06-17,2026-07-02
+ATLAS-1511,https://acmebank.atlassian.net/browse/ATLAS-1511,Add monitoring for scheduler file writer,Task,In Review,Highest,tnguyen,5f8a1c005,2,2026-06-19,2026-08-10
+ATLAS-1516,https://acmebank.atlassian.net/browse/ATLAS-1516,Reduce memory footprint of GL export step,Task,Blocked,Medium,tnguyen,5f8a1c005,2,2026-07-06,2026-07-23
+ATLAS-1518,https://acmebank.atlassian.net/browse/ATLAS-1518,Backfill historical data for recon,Story,To Do,Medium,tnguyen,5f8a1c005,2,2026-07-22,2026-07-26
+ATLAS-1519,https://acmebank.atlassian.net/browse/ATLAS-1519,Fix validator failure when gateway file arrives late,Bug,In Review,High,tnguyen,5f8a1c005,8,2026-07-06,2026-07-29
+ATLAS-1527,https://acmebank.atlassian.net/browse/ATLAS-1527,Investigate posting mismatch in daily recon,Bug,To Do,Low,tnguyen,5f8a1c005,8,2026-07-25,2026-08-08
+ATLAS-1530,https://acmebank.atlassian.net/browse/ATLAS-1530,Migrate warehouse load job to new scheduler,Bug,In Review,High,dokafor,5f8a1c006,1,2026-07-26,2026-07-29
+ATLAS-1538,https://acmebank.atlassian.net/browse/ATLAS-1538,Handle duplicate records in scheduler,Story,In Progress,Low,dokafor,5f8a1c006,2,2026-06-24,2026-07-17
+ATLAS-1540,https://acmebank.atlassian.net/browse/ATLAS-1540,Add monitoring for recon parser,Task,In Progress,Medium,dokafor,5f8a1c006,3,2026-07-03,2026-07-12
+ATLAS-1544,https://acmebank.atlassian.net/browse/ATLAS-1544,Refactor batch step used by scheduler,Story,In Progress,Low,dokafor,5f8a1c006,3,2026-06-18,2026-07-26
+ATLAS-1552,https://acmebank.atlassian.net/browse/ATLAS-1552,Handle duplicate records in statement gen,Bug,In Progress,High,lmuller,5f8a1c007,8,2026-06-24,2026-08-01
+ATLAS-1561,https://acmebank.atlassian.net/browse/ATLAS-1561,Backfill historical data for settlement,Story,In Review,High,lmuller,5f8a1c007,8,2026-07-04,2026-07-06
+ATLAS-1564,https://acmebank.atlassian.net/browse/ATLAS-1564,Fix parser failure when scheduler file arrives late,Task,In Review,Medium,lmuller,5f8a1c007,5,2026-07-27,2026-08-04
+ATLAS-1573,https://acmebank.atlassian.net/browse/ATLAS-1573,Improve recon throughput for month-end volumes,Task,In Progress,Highest,lmuller,5f8a1c007,5,2026-07-06,2026-07-13
+ATLAS-1582,https://acmebank.atlassian.net/browse/ATLAS-1582,Fix mapper failure when feed loader file arrives late,Bug,Blocked,Medium,lmuller,5f8a1c007,8,2026-07-08,2026-07-10
+ATLAS-1591,https://acmebank.atlassian.net/browse/ATLAS-1591,Handle duplicate records in scheduler,Bug,To Do,High,lmuller,5f8a1c007,3,2026-07-24,2026-08-02
+ATLAS-1596,https://acmebank.atlassian.net/browse/ATLAS-1596,Backfill historical data for settlement,Story,In Progress,Medium,swilson,5f8a1c008,8,2026-07-01,2026-07-14
+ATLAS-1598,https://acmebank.atlassian.net/browse/ATLAS-1598,Fix connection pool failure when recon file arrives late,Task,In Review,High,swilson,5f8a1c008,3,2026-06-24,2026-07-10
+ATLAS-1604,https://acmebank.atlassian.net/browse/ATLAS-1604,Backfill historical data for recon,Story,In Progress,Medium,swilson,5f8a1c008,2,2026-07-27,2026-08-01
+ATLAS-1607,https://acmebank.atlassian.net/browse/ATLAS-1607,Upgrade library used by batch step,Task,To Do,Medium,swilson,5f8a1c008,2,2026-06-24,2026-07-09
+ATLAS-1613,https://acmebank.atlassian.net/browse/ATLAS-1613,Investigate scheduler mismatch in daily recon,Bug,In Review,Medium,swilson,5f8a1c008,1,2026-07-31,2026-08-06
+ATLAS-1619,https://acmebank.atlassian.net/browse/ATLAS-1619,Fix currency conversion failure when posting file arrives late,Story,Blocked,Highest,swilson,5f8a1c008,5,2026-07-03,2026-07-22
+ATLAS-1621,https://acmebank.atlassian.net/browse/ATLAS-1621,Migrate risk calc job to new scheduler,Story,In Review,Low,swilson,5f8a1c008,1,2026-07-20,2026-07-29
+ATLAS-1626,https://acmebank.atlassian.net/browse/ATLAS-1626,Handle duplicate records in warehouse load,Task,In Progress,Highest,swilson,5f8a1c008,5,2026-07-11,2026-07-16
+ATLAS-1633,https://acmebank.atlassian.net/browse/ATLAS-1633,Fix validator failure when risk calc file arrives late,Bug,Blocked,Highest,rgupta,5f8a1c009,1,2026-08-01,2026-08-06
+ATLAS-1638,https://acmebank.atlassian.net/browse/ATLAS-1638,Improve GL export throughput for month-end volumes,Bug,Blocked,Medium,rgupta,5f8a1c009,3,2026-06-11,2026-06-19
+ATLAS-1641,https://acmebank.atlassian.net/browse/ATLAS-1641,Add monitoring for posting retry logic,Task,In Progress,High,rgupta,5f8a1c009,5,2026-08-03,2026-08-08
+ATLAS-1646,https://acmebank.atlassian.net/browse/ATLAS-1646,Add monitoring for risk calc file writer,Bug,In Review,Medium,rgupta,5f8a1c009,5,2026-06-26,2026-07-16
+ATLAS-1652,https://acmebank.atlassian.net/browse/ATLAS-1652,Improve ingestion throughput for month-end volumes,Bug,To Do,High,rgupta,5f8a1c009,3,2026-06-15,2026-06-17
+ATLAS-1660,https://acmebank.atlassian.net/browse/ATLAS-1660,Upgrade library used by file writer,Bug,In Review,Medium,efoster,5f8a1c010,1,2026-07-21,2026-08-05
+ATLAS-1669,https://acmebank.atlassian.net/browse/ATLAS-1669,Add monitoring for GL export date handling,Story,To Do,Medium,efoster,5f8a1c010,2,2026-07-17,2026-08-09
+ATLAS-1670,https://acmebank.atlassian.net/browse/ATLAS-1670,Fix logging failure when gateway file arrives late,Task,To Do,Highest,efoster,5f8a1c010,1,2026-06-13,2026-06-22
+ATLAS-1672,https://acmebank.atlassian.net/browse/ATLAS-1672,Handle duplicate records in gateway,Bug,In Progress,Medium,efoster,5f8a1c010,8,2026-06-24,2026-07-19
+ATLAS-1673,https://acmebank.atlassian.net/browse/ATLAS-1673,Refactor parser used by feed loader,Task,In Progress,Medium,efoster,5f8a1c010,2,2026-07-07,2026-07-19
+ATLAS-1682,https://acmebank.atlassian.net/browse/ATLAS-1682,Refactor mapper used by recon,Story,In Progress,Medium,efoster,5f8a1c010,1,2026-07-16,2026-07-24
+ATLAS-1684,https://acmebank.atlassian.net/browse/ATLAS-1684,Add monitoring for recon SLA alert,Story,In Progress,Highest,efoster,5f8a1c010,5,2026-07-06,2026-07-24
+ATLAS-1687,https://acmebank.atlassian.net/browse/ATLAS-1687,Upgrade library used by cutoff check,Task,To Do,Highest,efoster,5f8a1c010,1,2026-07-11,2026-07-30

@@ -1,0 +1,12 @@
+process_id,process_name,description,schedule_ct,avg_runtime_min,owner_team,criticality
+PRC-01,Data Ingestion & Validation,"Lands, validates and stages all inbound feeds, tables and API pulls",Daily 19:00,55,Batch Platform,Critical
+PRC-02,Customer Data Sync,"Refreshes customer, counterparty and KYC reference data",Daily 20:00,25,Customer Data,High
+PRC-03,Transaction Posting Engine,Posts the day's transactions to accounts and the ledger staging area,Daily 20:30,95,Core Banking,Critical
+PRC-04,Interest & Fee Calculation,"Accrues interest, applies fees and charges across all products",Daily 21:30,70,Product Engine,Critical
+PRC-05,Risk Exposure Calculation,Computes credit/market risk exposures and scores using EOD prices and curves,Daily 21:45,80,Risk Engineering,High
+PRC-06,Settlement & Payments,Generates settlement and payment instructions for custodians and networks,Daily 22:00,40,Payments Ops,Critical
+PRC-07,AML & Fraud Screening,Screens the day's activity for AML and fraud patterns,Daily 22:15,45,Financial Crime,High
+PRC-08,Regulatory Reporting,"Builds regulatory report extracts (FINREP, LCR) from posted data",Daily 23:00 / Month-end,60,Reg Reporting,High
+PRC-09,Statement Generation,Renders customer statements and notices for print and e-delivery,Month-end 23:00,120,Customer Comms,Medium
+PRC-10,Reconciliation,Reconciles internal balances against external feeds; emits break reports,Daily 23:15,35,Operations,Medium
+PRC-11,Warehouse Load & Archive,Publishes curated data to the warehouse and archives the day's snapshot,Daily 23:45,65,Data Platform,Medium

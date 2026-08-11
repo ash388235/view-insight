@@ -1,0 +1,19 @@
+data_point_id,name,type,format,source_system,provider,frequency,expected_arrival_ct,sla_ct,avg_size_mb,avg_record_count,consumed_by_processes,contact
+IN-001,Customer Master Extract,Database Table,Oracle table,CoreBanking CBS,Core Banking Ops,Daily,18:30,19:15,420,2100000,PRC-01|PRC-02,cbs-support@bank.com
+IN-002,EOD Transaction Feed,Input Feed,Fixed-width,PaymentsHub,Payments Ops,Daily,20:05,20:30,1850,9400000,PRC-01|PRC-03,payhub-l2@bank.com
+IN-003,FX Rates Snapshot,API Service,JSON,Bloomberg B-PIPE,Bloomberg,Daily,17:00,17:30,2,4200,PRC-01|PRC-05,mktdata@bank.com
+IN-004,Market Prices EOD,Input Feed,CSV,Refinitiv DataScope,Refinitiv,Daily,18:45,19:30,350,1250000,PRC-01|PRC-05,mktdata@bank.com
+IN-005,GL Chart of Accounts,Static File,CSV,SAP GL,Finance Ops,Monthly,17:00,18:00,5,18000,PRC-03|PRC-08,gl-finance@bank.com
+IN-006,Holiday Calendar,Static File,CSV,RefData Portal,Ops Reference Data,Monthly,16:00,18:00,0.1,900,PRC-01|PRC-06,refdata@bank.com
+IN-007,Credit Ratings Feed,Input Feed,XML,Moody's Data Hub,Moody's,Daily,16:30,17:30,45,310000,PRC-05,ratings@bank.com
+IN-008,Collateral Positions,Database Table,PostgreSQL table,CollateralSys,Collateral Ops,Daily,19:30,20:00,120,480000,PRC-05|PRC-06,collateral@bank.com
+IN-009,Loan Portfolio Snapshot,Database Table,Oracle table,LoanServ,Lending Tech,Daily,20:00,20:45,950,3600000,PRC-04|PRC-05,loanserv@bank.com
+IN-010,Card Transactions Feed,Input Feed,Fixed-width,Card Network Gateway,Visa / Mastercard,Intraday (hourly),rolling,20:30,300,5200000,PRC-03|PRC-07,cards-ops@bank.com
+IN-011,KYC & Sanctions Flags,API Service,JSON,ComplianceHub,Financial Crime,Daily,18:00,18:45,8,95000,PRC-02|PRC-07,fincrime@bank.com
+IN-012,Branch Reference Data,Static File,CSV,RefData Portal,Ops Reference Data,Weekly (Mon),16:00,18:00,1,4200,PRC-02,refdata@bank.com
+IN-013,Interest Rate Curves,API Service,JSON,Murex MX.3,Treasury Tech,Daily,17:30,18:15,6,12500,PRC-04|PRC-05,murex-support@bank.com
+IN-014,SWIFT Payment Instructions,Message Queue,ISO 20022 XML,SWIFT Gateway,SWIFT Alliance,Intraday (stream),rolling,21:00,75,260000,PRC-03|PRC-06,swift-ops@bank.com
+IN-015,Cost Center Hierarchy,Static File,CSV,Workday,HR Systems,Monthly,17:00,18:00,2,7800,PRC-08,hrsys@bank.com
+IN-016,Prior-Day Balance Table,Database Table,Oracle table,Batch Warehouse,Data Platform,Daily,19:00,19:30,640,2100000,PRC-03|PRC-10,dataplatform@bank.com
+IN-017,Regulatory Thresholds,Static File,XLSX,Risk Policy Portal,Risk Policy,Quarterly,17:00,18:00,0.5,1500,PRC-05|PRC-08,riskpolicy@bank.com
+IN-018,Counterparty Master,Database Table,SQL Server table,CRM Bridge,Client Data,Daily,18:45,19:30,85,410000,PRC-02|PRC-05,clientdata@bank.com

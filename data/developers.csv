@@ -1,0 +1,11 @@
+github_login,display_name,role,team,jira_account_id,email
+asharma,Aarav Sharma,Senior Backend Engineer,Core Batch,5f8a1c001,aarav.sharma@bank.com
+jchen,Jing Chen,Staff Engineer,Core Batch,5f8a1c002,jing.chen@bank.com
+mrodriguez,Maria Rodriguez,Backend Engineer,Data Platform,5f8a1c003,maria.rodriguez@bank.com
+kpatel,Kiran Patel,Senior Data Engineer,Data Platform,5f8a1c004,kiran.patel@bank.com
+tnguyen,Thanh Nguyen,Backend Engineer,Risk Engine,5f8a1c005,thanh.nguyen@bank.com
+dokafor,Daniel Okafor,Senior Backend Engineer,Risk Engine,5f8a1c006,daniel.okafor@bank.com
+lmuller,Lena Müller,Backend Engineer,Integrations,5f8a1c007,lena.muller@bank.com
+swilson,Sam Wilson,Junior Backend Engineer,Integrations,5f8a1c008,sam.wilson@bank.com
+rgupta,Riya Gupta,DevOps Engineer,Platform Ops,5f8a1c009,riya.gupta@bank.com
+efoster,Ethan Foster,Junior Backend Engineer,Core Batch,5f8a1c010,ethan.foster@bank.com

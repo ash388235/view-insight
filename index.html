@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atlas Batch — Dashboards</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1: #fcfcfb; --page: #f9f9f7;
+    --text-primary: #0b0b0b; --text-secondary: #52514e; --text-muted: #898781;
+    --grid: #e1e0d9; --border: rgba(11,11,11,0.10);
+    --accent: #2a78d6; --accent-2: #eb6834;
+    --wash: rgba(11,11,11,0.045);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --surface-1: #1a1a19; --page: #0d0d0d;
+      --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #898781;
+      --grid: #2c2c2a; --border: rgba(255,255,255,0.10);
+      --accent: #3987e5; --accent-2: #d95926;
+      --wash: rgba(255,255,255,0.06);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1: #1a1a19; --page: #0d0d0d;
+    --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #898781;
+    --grid: #2c2c2a; --border: rgba(255,255,255,0.10);
+    --accent: #3987e5; --accent-2: #d95926;
+    --wash: rgba(255,255,255,0.06);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--text-primary);
+         font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 14px; line-height: 1.5; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 48px 24px 60px; }
+  header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 8px; }
+  h1 { font-size: 26px; font-weight: 650; margin: 0; letter-spacing: -0.015em; }
+  .sub { color: var(--text-secondary); font-size: 14px; margin: 6px 0 34px; max-width: 620px; }
+  .ghost-btn { background: none; border: 1px solid var(--border); color: var(--text-secondary);
+               border-radius: 8px; padding: 6px 12px; font: inherit; font-size: 13px; cursor: pointer; }
+  .ghost-btn:hover { background: var(--wash); }
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 760px) { .cards { grid-template-columns: 1fr; } }
+  a.dcard {
+    display: block; text-decoration: none; color: inherit;
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 14px;
+    padding: 22px 24px; transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  a.dcard:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .dcard .tag { display: inline-flex; align-items: center; gap: 7px; font-size: 11.5px; font-weight: 650;
+                text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); }
+  .dcard .tag .dot { width: 8px; height: 8px; border-radius: 50%; }
+  .dcard h2 { font-size: 17px; margin: 10px 0 6px; }
+  .dcard p { color: var(--text-secondary); font-size: 13px; margin: 0 0 16px; }
+  .dcard .stats { display: flex; gap: 20px; flex-wrap: wrap; border-top: 1px solid var(--grid); padding-top: 12px; }
+  .dcard .stat .v { font-size: 17px; font-weight: 650; }
+  .dcard .stat .k { font-size: 11.5px; color: var(--text-muted); }
+  .dcard .open { margin-top: 14px; font-size: 13px; color: var(--accent); font-weight: 600; }
+  .soon { border: 1px dashed var(--border); border-radius: 14px; padding: 22px 24px; color: var(--text-muted);
+          display: flex; align-items: center; justify-content: center; min-height: 150px; font-size: 13px; text-align: center; }
+  footer { margin-top: 36px; color: var(--text-muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Atlas Batch — Dashboards</h1>
+    <button class="ghost-btn" id="themeBtn">Theme: Auto</button>
+  </header>
+  <div class="sub">Operational dashboards for the Atlas EOD monolithic batch platform. Demo build with mock data —
+    each dashboard documents the real source it would be fed from (input/output feed registry, GitHub REST API, Jira REST API).</div>
+
+  <div class="cards">
+    <a class="dcard" href="datadashboard.html">
+      <span class="tag"><span class="dot" style="background:var(--accent)"></span>Dashboard 01</span>
+      <h2>Data Inventory — Inputs &amp; Outputs</h2>
+      <p>Every data point the batch consumes and produces: sources, providers, consumers, frequency, arrival timing,
+         size, SLA status and historical trends — all linked to the processes that consume or produce them.</p>
+      <div class="stats">
+        <span class="stat"><div class="v">18</div><div class="k">inputs</div></span>
+        <span class="stat"><div class="v">14</div><div class="k">outputs</div></span>
+        <span class="stat"><div class="v">11</div><div class="k">processes</div></span>
+        <span class="stat"><div class="v">90d</div><div class="k">history</div></span>
+      </div>
+      <div class="open">Open dashboard →</div>
+    </a>
+
+    <a class="dcard" href="devdashboard.html">
+      <span class="tag"><span class="dot" style="background:var(--accent-2)"></span>Dashboard 02</span>
+      <h2>Developer Activity — Commits &amp; Jira Time</h2>
+      <p>Commit leaderboard across 6 repositories over the last 3 months, weekly trends, per-repo breakdown,
+         plus Jira time allocation for the last two weeks with links to every issue.</p>
+      <div class="stats">
+        <span class="stat"><div class="v">10</div><div class="k">developers</div></span>
+        <span class="stat"><div class="v">6</div><div class="k">repositories</div></span>
+        <span class="stat"><div class="v">90d</div><div class="k">commits</div></span>
+        <span class="stat"><div class="v">2w</div><div class="k">Jira time</div></span>
+      </div>
+      <div class="open">Open dashboard →</div>
+    </a>
+
+    <div class="soon">Your next dashboard — batch runtime &amp; SLA monitoring, cost, incidents…<br>Add a card here and link it.</div>
+  </div>
+
+  <footer>Demo data throughout · see README_api_pull.md for the GitHub &amp; Jira REST calls that feed the real version.</footer>
+</div>
+<script>
+  const btn = document.getElementById("themeBtn");
+  const themes = ["auto", "light", "dark"]; let i = 0;
+  btn.addEventListener("click", () => {
+    i = (i + 1) % 3; const t = themes[i];
+    if (t === "auto") document.documentElement.removeAttribute("data-theme");
+    else document.documentElement.setAttribute("data-theme", t);
+    btn.textContent = "Theme: " + t[0].toUpperCase() + t.slice(1);
+  });
+</script>
+</body>
+</html>

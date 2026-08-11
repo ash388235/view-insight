@@ -1,0 +1,7 @@
+repo_full_name,description,primary_language,default_branch
+acme-bank/atlas-core-batch,"Monolithic EOD batch application (posting, interest, settlement)",Java,main
+acme-bank/atlas-data-ingest,"Feed ingestion, validation and staging framework",Java,main
+acme-bank/atlas-risk-engine,Credit & market risk exposure calculators,Scala,main
+acme-bank/atlas-api-gateway,REST/MQ gateway in front of the batch outputs,Kotlin,main
+acme-bank/atlas-recon-tools,Reconciliation utilities and break-report generators,Python,main
+acme-bank/atlas-devops-infra,"CI/CD pipelines, IaC and batch scheduling config",Terraform,main

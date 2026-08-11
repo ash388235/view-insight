@@ -1,0 +1,15 @@
+data_point_id,name,type,format,destination,consumers,frequency,expected_delivery_ct,sla_ct,avg_size_mb,avg_record_count,produced_by_process,contact
+OUT-001,GL Posting File,Output Feed,Fixed-width,SAP GL,Finance / SAP GL,Daily,22:45,23:30,220,1350000,PRC-03,gl-finance@bank.com
+OUT-002,FINREP Regulatory Extract,Report File,XBRL,Regulator Portal,Central Bank / Reg Reporting,Monthly,23:30,23:59,65,240000,PRC-08,regreport@bank.com
+OUT-003,Risk Exposure Cube,Database Table,Snowflake table,Risk Warehouse,Risk Analytics / Tableau,Daily,22:30,23:00,780,2900000,PRC-05,riskeng@bank.com
+OUT-004,Customer Statement Batch,Output Feed,PDF/AFP bundle,Print & E-delivery Vendor,Print Vendor / Email Service,Monthly,23:45,23:59,1500,850000,PRC-09,custcomms@bank.com
+OUT-005,Settlement Instructions,Message Queue,ISO 20022 XML,SWIFT Gateway,Custodians / Correspondent Banks,Daily,22:10,22:45,55,180000,PRC-06,swift-ops@bank.com
+OUT-006,EOD Balances Table,Database Table,Oracle table,Online Banking DB,Online Banking / ATM Switch / Mobile App,Daily,22:50,23:15,610,2100000,PRC-04,corebank@bank.com
+OUT-007,Fraud Score Feed,Output Feed,JSON lines,FraudOps Platform,Fraud Operations,Daily,22:30,23:00,90,5200000,PRC-07,fincrime@bank.com
+OUT-008,Warehouse Curated Load,Output Feed,Parquet,Enterprise DW (Snowflake),EDW / BI Teams / Data Science,Daily,23:50,23:59,2400,14800000,PRC-11,dataplatform@bank.com
+OUT-009,Fee & Charges File,Output Feed,CSV,Billing System,Billing / Product Control,Daily,22:20,23:00,35,420000,PRC-04,billing@bank.com
+OUT-010,LCR Liquidity Report,Report File,XLSX,Treasury Share,Treasury / ALM Desk,Daily,23:15,23:45,4,9500,PRC-08,treasury@bank.com
+OUT-011,Reconciliation Breaks File,Output Feed,CSV,Ops Recon Share,Operations Recon Team,Daily,23:20,23:45,3,8200,PRC-10,opsrecon@bank.com
+OUT-012,Credit Risk Scores,Database Table,Oracle table,LoanServ Risk Schema,LoanServ / Credit Risk,Daily,22:40,23:15,140,3600000,PRC-05,riskeng@bank.com
+OUT-013,AML Alert Feed,Output Feed,JSON lines,AML Case Manager,Financial Crime Investigations,Daily,22:45,23:15,12,3800,PRC-07,fincrime@bank.com
+OUT-014,Daily Archive Snapshot,Static File,tar.gz,S3 Glacier,Records Management / Audit,Daily,23:55,23:59,3100,0,PRC-11,dataplatform@bank.com

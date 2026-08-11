@@ -1,0 +1,814 @@
+sha,repo,author_login,author_name,commit_date,message,additions,deletions,files_changed
+056175cedcba4d7c6340c8c6ca68b19e1bd1a578,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-13T09:46:00-05:00,ATLAS-1516: null-safety guard for validator,202,46,1
+8b1e0fe838081b2bdcfa5bdc2e3c5162e839f135,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-13T09:54:00-05:00,SLA alert cleanup in recon,25,14,4
+a23d2bd2edcb6ccd381d7ba1bb0da2a84bd65f0c,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-13T10:37:00-05:00,ATLAS-1498: fix file writer in risk calc,88,39,4
+4851807856cd93e28c21de8413d103c616fd05a2,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-05-13T10:57:00-05:00,ATLAS-1407: performance tuning of statement gen,108,32,2
+2035d4b874976ea0fb0bf319b27662e4e9495b81,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-05-13T13:22:00-05:00,ATLAS-1633: refactor worklog sync cache,136,43,1
+1a6aee42d48da7fda05556cebf86251eca175f5f,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-05-13T14:04:00-05:00,ATLAS-1638: add rounding for GL export,5,2,1
+0a6d99a1941c59782c24824fdd649df7dfc432f7,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-13T15:09:00-05:00,date handling cleanup in posting,44,5,1
+eea496f2c637f02cac32f318a4ac4433ad3dd267,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-05-13T16:33:00-05:00,validator cleanup in gateway,9,4,1
+59d1974d94d39289c4612d238d90a70e6e778a2b,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-05-13T16:45:00-05:00,ATLAS-1471: performance tuning of feed loader,249,87,11
+60b614013301c524eca67837bbc56085b1f73986,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-05-13T17:25:00-05:00,ATLAS-1641: handle retry logic edge case in warehouse load,75,29,4
+66578740284d707a6e8ace25181d3366fa0615e6,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-05-13T19:26:00-05:00,ATLAS-1422: handle logging edge case in gateway,472,303,4
+c33bb359d6be49958d9222daf06b8653bfcbf800,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-05-14T09:19:00-05:00,ATLAS-1471: add batch step for scheduler,10,1,1
+e8b8f00d214d8fa223340f72514a227243f1266a,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-05-14T09:57:00-05:00,ATLAS-1540: null-safety guard for cutoff check,36,9,8
+3573540e1a2b71f9458789674509812dd120d9f6,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-05-14T10:20:00-05:00,ATLAS-1477: refactor statement gen cache,17,12,2
+668f31338acae173f86e36c5e89647e695d6edac,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-05-14T10:25:00-05:00,logging cleanup in ingestion,91,67,3
+6fb241bc6ac1200ed68f158e7801a9900c6102c8,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-05-14T10:29:00-05:00,ATLAS-1669: fix currency conversion in feed loader,232,69,4
+5df61cc22f02e989ef5e830cd6fdb5cf985ba246,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-05-14T12:11:00-05:00,ATLAS-1669: handle rounding edge case in settlement,6,1,2
+0232c3aa142859adbadd56dff84e91a1f3117945,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-05-14T13:16:00-05:00,bump dependencies and fix mapper,54,48,2
+5417b473d776f539b8557551871758b9b069dacd,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-05-14T14:12:00-05:00,ATLAS-1660: add cutoff check for posting,77,65,3
+bfd5857419e0c9d75c5cdc38c24270fce9d809b9,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-05-14T14:45:00-05:00,ATLAS-1451: add SLA alert for risk calc,70,25,4
+bfbf6a510822d73839f20abdc9a9b920e2bf28cb,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-14T16:00:00-05:00,rounding cleanup in GL export,14,5,1
+f2c15d192c58772128262d6295e374cedca71572,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-05-14T18:45:00-05:00,ATLAS-1638: config change for statement gen,13,3,3
+0ee1b692086f179f191a87feb85bec5c959ec842,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-05-14T19:11:00-05:00,ATLAS-1457: refactor settlement file writer,170,138,1
+db26c0cae48c6225b1d208ef8c109625037cfaf0,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-05-15T09:07:00-05:00,ATLAS-1638: fix rounding in recon,53,29,1
+80a9c3f219dfd90ba69f067cdbb5eeca6a063746,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-05-15T09:19:00-05:00,ATLAS-1669: unit tests for scheduler file writer,4,1,7
+29acf11d54b4ff50c14c40541a47e9ab5a992808,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-05-15T10:23:00-05:00,ATLAS-1457: unit tests for scheduler error codes,39,6,4
+c116ee643466366f841786128850f565f3393a35,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-15T10:57:00-05:00,bump dependencies and fix connection pool,123,25,9
+67444fedc35d1a9c7fd4295db947bc68c438665f,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-05-15T11:57:00-05:00,ATLAS-1403: unit tests for feed loader batch step,20,13,1
+3000e7f5181934548ad6d7b30245ba3e50685e8a,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-05-15T13:47:00-05:00,ATLAS-1474: performance tuning of settlement,48,22,9
+b3bf9949c440088026c964b9e4cbcbc40d45852d,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-15T15:04:00-05:00,ATLAS-1498: config change for warehouse load,58,32,1
+ccbce8a66921fa74bdaff5e118394392d45b9130,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-05-15T16:06:00-05:00,ATLAS-1471: null-safety guard for error codes,5,3,3
+763d7427f621606f09dcf5189c37ae71e38f88d4,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-05-15T17:09:00-05:00,ATLAS-1457: fix retry logic in GL export,34,20,3
+ba3503c4c0e265f7c87e55004681cb4794974d9f,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-05-15T17:21:00-05:00,ATLAS-1538: add validator for worklog sync,54,40,3
+e0077e30050ed789c66520fb6a54e9942f70d0ec,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-05-15T18:33:00-05:00,ATLAS-1480: add cutoff check for statement gen,27,9,4
+5bcd2cc36bf7bdcc55ba01c24111ab24800b65b4,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-15T19:41:00-05:00,ATLAS-1479: null-safety guard for validator,36,6,3
+2305ec32ffcdfa45e5dcec4044a927e4594998e3,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-17T10:10:00-05:00,bump dependencies and fix validator,1861,1575,7
+dfee43366067f01ed46ff1d92a732d1070d00fc6,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-17T10:43:00-05:00,ATLAS-1516: performance tuning of statement gen,27,14,1
+57013f769d0226a58ef01b01e3ea85f7f98d74f6,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-17T12:40:00-05:00,ATLAS-1527: config change for statement gen,43,11,5
+06e64a31e1ff326d27d7b4243e3086cc3206bd0e,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-18T09:43:00-05:00,ATLAS-1527: add cache for warehouse load,62,24,8
+aedeecd02c91fc2b644dd1291ec764bee24f5022,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-05-18T09:52:00-05:00,ATLAS-1464: fix cache in GL export,269,231,1
+6a5f166f51376786d789f6e90b0200b988682a46,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-05-18T10:22:00-05:00,ATLAS-1660: handle connection pool edge case in GL export,81,20,3
+60c469540d4441144b5273ce307346698339b2c9,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-05-18T11:57:00-05:00,ATLAS-1652: null-safety guard for retry logic,33,17,6
+935a1394a37baecac1447a8a9043ef0d3b38b123,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-05-18T12:29:00-05:00,ATLAS-1544: fix SLA alert in gateway,11,6,3
+4e639706ed56d1094a18306d50904df2c53a9a12,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-05-18T13:07:00-05:00,ATLAS-1564: fix validator in GL export,28,10,5
+31e8c1b56cdcb276dca6c010ee43618fe94d08f9,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-05-18T14:19:00-05:00,ATLAS-1477: unit tests for statement gen mapper,28,7,7
+4aaf98186b6bf1921fa62723f8d79ac9fd2a29f2,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-05-18T14:33:00-05:00,ATLAS-1418: unit tests for feed loader logging,6,2,4
+0e0fcb6c3c28a1f6c6aace9f5a5ce020572d6ef3,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-05-18T15:05:00-05:00,ATLAS-1598: config change for scheduler,28,12,10
+535e937267cb5c7b8b82bc77a182be01a8d458ca,acme-bank/atlas-core-batch,rgupta,Riya Gupta,2026-05-18T16:29:00-05:00,SLA alert cleanup in gateway,9,1,6
+85639746f5b2e7d1882c863445cafea499245ce3,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-18T16:34:00-05:00,ATLAS-1516: refactor settlement date handling,3,1,1
+c06ce5aa04d8afe381e9383d4c9a1a250a512733,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-05-18T18:11:00-05:00,SLA alert cleanup in risk calc,105,32,2
+e54601cc89e7e05c809c23fbaf457e97930f8052,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-05-18T19:41:00-05:00,ATLAS-1538: config change for GL export,39,19,6
+7d95dc619ebf796b2b437b71730575289d334ec8,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-05-19T09:33:00-05:00,ATLAS-1530: fix connection pool in statement gen,13,4,2
+e24bc1bca31eb7e511b0f11139d36f95509485f7,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-19T12:27:00-05:00,bump dependencies and fix rounding,70,37,4
+4c914377ff6e20601d37c6f0b2622275a948526f,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-19T12:27:00-05:00,bump dependencies and fix logging,29,9,9
+f34ad023664e9bd5df5280a2b036220379bc6435,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-05-19T12:51:00-05:00,ATLAS-1418: performance tuning of settlement,180,85,3
+b749660e77f19e45e81ebdfd6ec2ee2c43125de9,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-05-19T13:08:00-05:00,ATLAS-1619: performance tuning of recon,17,7,8
+b6bebdd71f9689c554d5c4ec593e120b2fcc5c19,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-05-19T13:23:00-05:00,ATLAS-1540: null-safety guard for retry logic,3,1,4
+55f4cacba9bce864c7dfd268492f3d842185c44e,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-05-19T13:39:00-05:00,ATLAS-1427: unit tests for feed loader logging,28,19,9
+60686092a21ce5a2b4dafaa4248bf876a8976881,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-05-19T14:29:00-05:00,ATLAS-1544: performance tuning of scheduler,67,26,2
+75b3f85426dca1191b6e1a7843737ebf04b87d5c,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-05-19T15:03:00-05:00,ATLAS-1403: fix batch step in statement gen,77,43,1
+aee67cada4784009877e25f66171cfebaea3c236,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-19T15:25:00-05:00,ATLAS-1480: performance tuning of gateway,152,94,2
+d9dc8360121ba2159aadf8450ce12e064bdc0c29,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-05-19T15:29:00-05:00,ATLAS-1498: refactor posting connection pool,5,1,4
+651aba395d4f3281b976a6cfa9925424dbe2f6e5,acme-bank/atlas-core-batch,tnguyen,Thanh Nguyen,2026-05-19T15:36:00-05:00,ATLAS-1527: performance tuning of worklog sync,47,28,4
+47cb4be04c848b55d5e9237f6ca8132d17aa32ac,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-19T16:44:00-05:00,ATLAS-1519: fix file writer in GL export,36,8,5
+0ea05f241b7732290b4cc0f04d509544c77f20df,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-05-19T19:53:00-05:00,ATLAS-1418: performance tuning of scheduler,131,62,4
+9cf80d7af4dc4ee2a76349a3856bd88f512e5af3,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-05-20T12:20:00-05:00,ATLAS-1540: fix cutoff check in ingestion,80,53,1
+02287110b67cc0af04b0b814dab3be72a81626dd,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-05-20T12:24:00-05:00,ATLAS-1435: config change for warehouse load,69,43,2
+eeeb1476c9a0a468a9e60c70033bb6874ca04ca2,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-05-20T14:09:00-05:00,parser cleanup in posting,68,52,3
+5daf37cbf281baef58872e99f8ace74863d42143,acme-bank/atlas-core-batch,tnguyen,Thanh Nguyen,2026-05-20T14:30:00-05:00,ATLAS-1518: null-safety guard for SLA alert,28,3,40
+aefa987411a0f152ad7b99a12fad7bc36656a313,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-05-20T14:35:00-05:00,bump dependencies and fix rounding,5,3,6
+737232776231a1f90051db6f59b6d6a0528a44c5,acme-bank/atlas-recon-tools,lmuller,Lena Müller,2026-05-20T14:44:00-05:00,ATLAS-1573: config change for scheduler,124,54,3
+61da2be3237deebe8ee505ab016ed08929a92650,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-05-20T15:08:00-05:00,ATLAS-1561: refactor scheduler batch step,33,21,20
+a94b457024a2e6012c61c8fb8c91cfa765e36056,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-05-20T15:43:00-05:00,ATLAS-1418: refactor worklog sync parser,88,54,1
+b662fa507cee50eedc166a6419b61c3a5931d500,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-05-20T15:43:00-05:00,ATLAS-1646: refactor ingestion cutoff check,23,15,2
+10be23a8b89e7510d8996d428ea38203aa50635f,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-05-20T17:26:00-05:00,bump dependencies and fix error codes,6,5,4
+1d0b40009b4b3f4f864853564f0050d1a95317c6,acme-bank/atlas-recon-tools,lmuller,Lena Müller,2026-05-20T19:36:00-05:00,ATLAS-1591: refactor ingestion cache,7,5,2
+36d50e4e9ddba60a9ef3218fae8a98e51860e6a2,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-05-21T09:10:00-05:00,ATLAS-1418: unit tests for warehouse load logging,36,17,4
+d8f0fd6910ebf323f9d71708741cdaf39d9f2d32,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-05-21T09:35:00-05:00,ATLAS-1530: handle validator edge case in risk calc,240,165,4
+8799014d5d1c4e5d9772f5891a6360216877f2e3,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-05-21T09:39:00-05:00,ATLAS-1422: fix logging in GL export,69,33,4
+7ed30b8652d493521b25c19595d0d5adea4f2ca6,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-05-21T10:14:00-05:00,ATLAS-1456: add rounding for ingestion,109,15,7
+957677fdaa5a9b5c09b4eb80ada9d864e3273392,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-21T10:33:00-05:00,ATLAS-1480: refactor scheduler logging,4,1,1
+03af843592ee04c8f112ac8682a47a4414b8099f,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-05-21T10:37:00-05:00,ATLAS-1407: refactor feed loader retry logic,25,20,4
+9ec7781745f983cecb57eff31f1cb40b3adaa85b,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-05-21T10:42:00-05:00,ATLAS-1422: null-safety guard for rounding,5,2,5
+5223c82c3da5b184084a19e97f569d6d4fe29fbf,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-05-21T11:11:00-05:00,ATLAS-1538: handle validator edge case in ingestion,398,107,3
+22743412a601dd0de33d97c920f7997934fb61b9,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-05-21T11:22:00-05:00,bump dependencies and fix cutoff check,17,4,1
+f8d053e4c949bbdf426ef0389bfca7f9d5fb8ed3,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-05-21T11:32:00-05:00,ATLAS-1457: fix date handling in worklog sync,10,8,1
+e09425c7c3993f93f542ebce4ae361b1932556f8,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-05-21T11:32:00-05:00,ATLAS-1669: add error codes for settlement,13,4,2
+1c1adfbe65bdfecebca496bc8d11cbad1235c9db,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-05-21T11:35:00-05:00,ATLAS-1561: unit tests for warehouse load validator,13,6,3
+7a7a7a4c3bb89f22ed0f8f81a35e3b1dd7c88339,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-05-21T11:48:00-05:00,ATLAS-1471: refactor scheduler cutoff check,58,44,1
+97c7505e8f9d1911044b38628eaad0aa05192fb1,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-05-21T12:30:00-05:00,ATLAS-1598: unit tests for recon date handling,18,10,1
+d8eb3bd42f410049cf0136e440074ece2021c8d1,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-05-21T13:26:00-05:00,ATLAS-1407: handle file writer edge case in feed loader,45,37,4
+90057e42c23efbaae96d8349ebefcd7ddd92863e,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-05-21T13:38:00-05:00,ATLAS-1504: unit tests for settlement currency conversion,261,61,1
+a4ee091b2df1ffaa67b9ca9c1f555fe1f787c656,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-21T14:20:00-05:00,ATLAS-1519: performance tuning of ingestion,98,35,1
+843a8a1520f5f083cb12e27345d04e18f3a3dc4a,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-05-21T15:17:00-05:00,ATLAS-1582: unit tests for risk calc SLA alert,80,34,2
+c196d2c006a41ba0f9b011ac0273c4e9b9868d8a,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-05-21T18:05:00-05:00,ATLAS-1564: fix cutoff check in recon,19,16,1
+c53f7286c2d9410e811b1a2419f239644f1745e9,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-05-21T18:26:00-05:00,ATLAS-1598: performance tuning of ingestion,346,197,8
+4e8982b2e88962628b55d2ff10f44234f1a8db1e,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-05-21T18:52:00-05:00,bump dependencies and fix SLA alert,526,459,2
+b2ebe0f8681f9ee3e0a6c5a2fd98fa818bbb5934,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-05-22T11:21:00-05:00,ATLAS-1422: add mapper for GL export,33,23,1
+bfcc75b0e6b9b9f11f63a518d92b1312eef0d9ff,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-05-22T11:22:00-05:00,ATLAS-1552: config change for statement gen,34,6,4
+af8f12ab05567704eb6f2517cf36e62b7ce3d49d,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-05-22T11:26:00-05:00,ATLAS-1591: config change for risk calc,60,40,4
+4cce668435a1813706e3c40cb2ef8241d836dd5b,acme-bank/atlas-core-batch,rgupta,Riya Gupta,2026-05-22T12:43:00-05:00,ATLAS-1646: refactor warehouse load date handling,11,1,22
+f84a142d7617726a04d650c6239a90569304783b,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-05-22T12:51:00-05:00,connection pool cleanup in GL export,6,3,1
+c3cb0331d012707611d4686600b5c7a65eed3e7d,acme-bank/atlas-devops-infra,jchen,Jing Chen,2026-05-22T13:05:00-05:00,ATLAS-1451: unit tests for gateway cutoff check,168,85,2
+e6885b2e004cfdd4f4452e824e2f06172fd89fc5,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-05-22T13:18:00-05:00,ATLAS-1418: unit tests for GL export batch step,36,18,5
+e3323e96f429c7d8f224d0766b68fad37306e763,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-05-22T13:26:00-05:00,ATLAS-1673: performance tuning of ingestion,16,5,3
+e1362a79a7d6c36c70560fd479905a66676c2ae6,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-05-22T13:51:00-05:00,ATLAS-1530: unit tests for posting parser,40,27,8
+f0c360672ff3616cf4d850bc913dffbd4478c98d,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-05-22T14:57:00-05:00,ATLAS-1471: refactor settlement currency conversion,170,140,2
+fd2630f42b098485b37b5a4bea9721bae8ce8c4c,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-05-22T15:09:00-05:00,ATLAS-1492: null-safety guard for cutoff check,28,18,4
+6fedd4b68bca0b242e5ef0112cc5ef9c52eaf776,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-05-22T15:53:00-05:00,ATLAS-1435: config change for ingestion,83,30,3
+a8bdf74303919836bb44c86d61b70c727b32e891,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-05-22T18:40:00-05:00,bump dependencies and fix validator,115,49,1
+558468dbf67c8fa6c1e9fa18c9d0900fa349993a,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-22T19:24:00-05:00,ATLAS-1479: fix date handling in statement gen,49,14,13
+5b282f6b036a4bce9c38509c13879db5080df053,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-23T12:21:00-05:00,ATLAS-1516: fix SLA alert in warehouse load,123,42,2
+db37210b6cd0bd1797e6935de72827426f7a0d40,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-05-25T09:13:00-05:00,ATLAS-1457: null-safety guard for mapper,101,21,7
+b7ac72ea10d3e668b55cf5579143a415c0f473f4,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-05-25T12:26:00-05:00,ATLAS-1591: handle mapper edge case in ingestion,25,22,4
+e1f48ada6b80caa315c3cd6f21615f29ed2d1693,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-25T15:49:00-05:00,ATLAS-1492: null-safety guard for file writer,31,25,4
+5d32b65a31d2e7b666883cd42053bdb6b1bab646,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-05-25T16:44:00-05:00,ATLAS-1564: add file writer for settlement,26,10,2
+a6c2fb68b2f0b0795df9c80d50487bfaf878375c,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-05-25T17:56:00-05:00,ATLAS-1421: performance tuning of ingestion,29,3,6
+85ef427d142ea397068982e42a17d5c4df24c23c,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-05-25T18:15:00-05:00,batch step cleanup in GL export,120,74,3
+d640b0a55799b3a6d648ada52e55abf598030a89,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-25T19:57:00-05:00,ATLAS-1480: refactor recon retry logic,35,30,8
+3d76816945b95bc3a6d1347f6a8e854c42e48f4a,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-05-26T09:13:00-05:00,ATLAS-1670: refactor feed loader file writer,49,37,1
+ff71777ac9763a10f4d39b5a00d668a00bed15a9,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-05-26T09:41:00-05:00,ATLAS-1479: null-safety guard for mapper,15,1,1
+8def0d5a342bf0892e0d118926b2a423082a40b0,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-05-26T10:37:00-05:00,ATLAS-1497: performance tuning of ingestion,36,6,1
+dff6f88017a60cfa9f80f2402c4e477e31543b3a,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-05-26T10:40:00-05:00,connection pool cleanup in scheduler,41,25,2
+f8be4b9891cd7be89f0bea6d1165d816a9fc5abf,acme-bank/atlas-recon-tools,swilson,Sam Wilson,2026-05-26T13:22:00-05:00,bump dependencies and fix SLA alert,12,10,1
+93197110de1a90ecee7316adededd7f75c2cb68e,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-05-26T15:18:00-05:00,ATLAS-1660: performance tuning of warehouse load,17,4,2
+7405f4615aad1096163bfdd7e44e4a8023a636eb,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-26T16:01:00-05:00,ATLAS-1492: fix logging in statement gen,36,10,2
+a35292a53bb31edfb12f91444fa681e0ea215169,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-26T16:17:00-05:00,ATLAS-1519: refactor scheduler logging,14,10,1
+6a4df6e3a3aef7eb9d776b3a499b889c2d0ac4fa,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-05-26T16:31:00-05:00,bump dependencies and fix rounding,28,25,8
+a6a7ea88674fc798827a09828fe9bec09c821549,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-05-26T17:58:00-05:00,ATLAS-1421: null-safety guard for batch step,4,2,3
+540941d80f47dea46326c7d74a214a27fabb5217,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-05-27T09:14:00-05:00,ATLAS-1461: unit tests for posting cache,36,28,3
+0d6ee92a9587f78f08854d79e6ab7d9ff04d4c39,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-27T10:22:00-05:00,bump dependencies and fix file writer,150,45,1
+4f86ff7356772ba370d31c78e47d22d6146bbc30,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-05-27T12:36:00-05:00,bump dependencies and fix retry logic,34,6,5
+d1011fcff1fed41ee7bb578d0e04640a9fb688a2,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-27T12:47:00-05:00,ATLAS-1497: null-safety guard for error codes,47,34,4
+af532da67e77b80a0bdfabe08992bf100b2f2261,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-05-27T12:48:00-05:00,ATLAS-1596: handle parser edge case in settlement,31,13,4
+b52f4bbe1283ff7052da79feb9cdf420af8b5d21,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-27T12:59:00-05:00,ATLAS-1492: config change for warehouse load,192,85,12
+f6e92f86151eaa20948fd16a78efa6671046bcab,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-27T16:19:00-05:00,ATLAS-1479: null-safety guard for logging,2,0,8
+8bcf364c260c3c8f3860720608410f7c8cc41f5d,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-27T17:38:00-05:00,ATLAS-1479: fix logging in warehouse load,28,21,1
+1649d9ad8bfe205af600f784a6e78aafff9f8627,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-05-27T19:00:00-05:00,ATLAS-1407: unit tests for risk calc error codes,42,14,2
+f8d7ec41cedee582217b0c7c89eda20513766bb5,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-27T19:58:00-05:00,ATLAS-1504: fix file writer in recon,21,3,4
+72f1a638dddcdfe2ce0009179777a4b3ae641a1f,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-05-28T09:34:00-05:00,ATLAS-1451: add cache for GL export,31,8,1
+90c530e07f8984272180f93219cb5c99d19bd2b7,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-05-28T11:48:00-05:00,ATLAS-1530: null-safety guard for date handling,21,13,3
+f09e8bd87f030eb117a8c0347b31568f52109df8,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-05-28T14:40:00-05:00,ATLAS-1672: performance tuning of recon,55,16,5
+edf219c1e479b41a86c522b7a1f685da5aaef19d,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-05-28T17:31:00-05:00,ATLAS-1538: performance tuning of statement gen,74,47,1
+8b96b405b793420f7293bf015c92aaefa0015b9f,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-05-29T09:42:00-05:00,ATLAS-1633: null-safety guard for SLA alert,38,27,1
+82fa9ed3cafb3918cce33ef1fffd5a1c247f7254,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-05-29T09:55:00-05:00,ATLAS-1561: refactor warehouse load validator,166,115,7
+2e379919a9a4980f56025bae91c3e3d414606bfb,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-05-29T10:20:00-05:00,ATLAS-1479: unit tests for statement gen retry logic,13,8,3
+067ca5e7ba2f58559926eb08db1421f257341c46,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-05-29T10:49:00-05:00,ATLAS-1544: performance tuning of worklog sync,66,24,1
+2fafd1a236378f86bcc559eb770bf4f338f82d87,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-05-29T11:31:00-05:00,ATLAS-1480: add currency conversion for settlement,78,7,8
+ed7e21a4d7f229a4309e727f4c0d4486d3229f5b,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-05-29T15:49:00-05:00,ATLAS-1638: refactor worklog sync validator,35,9,5
+f97f2ad68b5547f7a8ad3de6735e5c1b4a602d37,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-05-29T16:11:00-05:00,ATLAS-1504: null-safety guard for cutoff check,29,6,6
+218384a3335c50c06b37c1323323f3a4eb84bd3a,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-05-29T17:10:00-05:00,bump dependencies and fix parser,14,2,9
+db1a0afdd2f984c980dddc0894389c665e8bafc8,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-05-29T18:28:00-05:00,retry logic cleanup in scheduler,118,48,1
+65776577a503115ab75c9dbd49d7a5f0082a29b6,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-05-29T18:33:00-05:00,ATLAS-1403: fix error codes in statement gen,209,95,1
+376313fc975c71008f3c059769331326fa4ed3b8,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-05-29T19:09:00-05:00,ATLAS-1538: null-safety guard for error codes,53,13,7
+4bc7e13fdeb9ee48b31aeac0fe988d043e6e0808,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-05-30T19:56:00-05:00,ATLAS-1633: fix parser in ingestion,6,5,1
+f4086814b5838225387df16f8567b9beef4fa3c5,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-06-01T09:00:00-05:00,ATLAS-1403: fix currency conversion in gateway,92,37,1
+6f6cbd5dd789e4536a998332b61f4e383085a08c,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-06-01T09:00:00-05:00,ATLAS-1530: unit tests for statement gen cutoff check,57,42,11
+1a4b2574352136a80796260cd35bf68e7bf3bf21,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-01T09:18:00-05:00,ATLAS-1564: fix logging in feed loader,115,20,3
+73c28b233d1ee23e7b2d188b123694a40b3a3d96,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-06-01T09:23:00-05:00,ATLAS-1422: refactor posting error codes,15,7,24
+a1abfad16c373103612058cd5ec13f3c29411efe,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-01T10:26:00-05:00,ATLAS-1638: unit tests for statement gen cache,29,16,3
+f81a2b20d69538fd654f4882fe5e26903cddd8dd,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-01T10:52:00-05:00,ATLAS-1451: config change for ingestion,224,165,2
+103d2099bacce63f539162c029010ed1312d11fb,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-06-01T12:34:00-05:00,ATLAS-1435: refactor worklog sync error codes,19,3,2
+a2151dd4c506440b1415e76167329f2a53b7095b,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-01T14:46:00-05:00,cache cleanup in posting,33,28,1
+61066ba65d26229a15275ccea8d53df25ba2decd,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-06-01T15:10:00-05:00,ATLAS-1598: fix date handling in statement gen,12,4,2
+ad79676ad62561b71c92b11676191ca3ceba1b33,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-06-01T15:35:00-05:00,ATLAS-1403: add connection pool for feed loader,19,2,4
+33f49cbfd58809d7c85f55f6230e089b5efb3fa2,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-06-01T17:21:00-05:00,ATLAS-1538: null-safety guard for error codes,12,10,1
+192887ee494c84ed595e2f979dfeed176789e143,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-01T18:46:00-05:00,parser cleanup in recon,430,238,3
+a816cebe4b0cc76e9451a658796d843282d2e9c1,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-06-01T19:25:00-05:00,ATLAS-1504: refactor warehouse load connection pool,22,12,1
+3a3e25e8a850b202cf3ba9547d21080ff1dac0f4,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-01T19:44:00-05:00,ATLAS-1477: add parser for feed loader,49,33,2
+63c4431a5cfc708ceffc03ca523a1b7d4f1ca7d1,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-02T09:18:00-05:00,ATLAS-1421: refactor risk calc retry logic,54,26,3
+281774bb2bdea426f683be3c45f16898f89389c7,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-02T09:43:00-05:00,ATLAS-1480: add error codes for risk calc,75,13,1
+32dfab7eecf6e745dc9e300c69a6c775cc722d67,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-06-02T09:59:00-05:00,ATLAS-1427: refactor feed loader retry logic,22,12,1
+766cf727f6607a0e34c16d27dfe124c077064e94,acme-bank/atlas-core-batch,tnguyen,Thanh Nguyen,2026-06-02T10:20:00-05:00,bump dependencies and fix SLA alert,70,22,3
+59f86a7c87a0db0d0f36fb5f1e8e2dd58c6b648c,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-02T10:30:00-05:00,date handling cleanup in GL export,17,11,4
+a4677cfc701e51236e64c3df8cdef1c1d43828a9,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-02T11:28:00-05:00,ATLAS-1479: add mapper for statement gen,86,13,4
+5e15c9fd97bae01c6f52416bd18692104ef34ac8,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-02T11:39:00-05:00,ATLAS-1527: null-safety guard for file writer,34,22,3
+7b8f44ece49a8a421830860668a72fe9ccb76298,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-02T11:46:00-05:00,ATLAS-1646: handle date handling edge case in risk calc,34,12,2
+9629636276998a91f829f273bcd9674bd4293af0,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-06-02T12:29:00-05:00,ATLAS-1504: fix batch step in gateway,33,12,1
+f1f3f79e576aec5a67ed2bf971c09820df28a35e,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-06-02T13:30:00-05:00,ATLAS-1596: refactor posting connection pool,23,8,9
+556c8b0684fad1e6b050735f7fb28cd78615b190,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-02T14:29:00-05:00,ATLAS-1516: add batch step for risk calc,32,22,3
+025bc40695516308256d73126df33c6c934724c1,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-02T14:35:00-05:00,ATLAS-1435: handle error codes edge case in gateway,162,20,1
+057152c86808a9e39887730db8efa91463147e63,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-02T15:24:00-05:00,ATLAS-1421: performance tuning of recon,82,8,1
+add3085510262c4e792fc4056ec0d33838dafc7f,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-06-02T17:23:00-05:00,ATLAS-1492: refactor risk calc validator,29,5,2
+a632062bb1144ae1f18a5697ed148e11567c0c24,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-06-02T18:21:00-05:00,parser cleanup in warehouse load,92,53,3
+9357548d2b6fb83a96b9d2fec4d820eaa5d6493d,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-06-02T18:41:00-05:00,ATLAS-1596: null-safety guard for retry logic,6,3,2
+cde0ff8979621be94f1f90c2ae10d5283266c136,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-02T18:46:00-05:00,bump dependencies and fix connection pool,17,10,2
+b6d0ebf86e02c06f134a4cddebc0d1a12bf20621,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-06-02T18:54:00-05:00,ATLAS-1673: config change for worklog sync,87,74,2
+f34ca2270c0547491a15c72d89d2771d513b304f,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-02T19:56:00-05:00,ATLAS-1633: unit tests for ingestion logging,210,113,1
+eda8d9c003e16f133ea90e8e6835542c9ca1a38c,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-03T09:56:00-05:00,ATLAS-1641: fix retry logic in posting,130,102,1
+09fdb1625a879b10c420841e99237c3c8293504b,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-03T10:08:00-05:00,ATLAS-1530: refactor warehouse load cutoff check,40,4,1
+e2b50c9386d5327e3b77b8ddcaf1eaf251537e0f,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-03T10:12:00-05:00,bump dependencies and fix logging,24,4,5
+0081c660866bc342238f74ac3bdeb6ffb80eb337,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-03T10:14:00-05:00,SLA alert cleanup in gateway,71,39,4
+a53e63967f8f50fb66351a21a259a34fd005f984,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-03T11:14:00-05:00,ATLAS-1516: add date handling for ingestion,14,10,11
+67e24e2b68bf44cdda53aad5f834588e358d31c6,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-03T11:19:00-05:00,ATLAS-1497: performance tuning of risk calc,5,1,4
+5629e9bb8c2a914a39c6b0321a6853edbdba5fab,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-03T11:32:00-05:00,ATLAS-1480: performance tuning of feed loader,138,84,3
+7d940d66e7000722c7b4553a79417f8a737affbd,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-03T12:19:00-05:00,ATLAS-1403: config change for statement gen,33,10,15
+ca8fbf162935aac8437382234d2a2d9f351ab6ab,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-03T12:37:00-05:00,cache cleanup in warehouse load,18,6,1
+ef7af9f37efd4d87540ee1c52741ac14c1ed94df,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-03T12:45:00-05:00,ATLAS-1646: refactor statement gen error codes,15,13,1
+4f78fcb05488d2febfa6a013700cd1fb33034f20,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-06-03T12:50:00-05:00,ATLAS-1461: config change for GL export,29,19,6
+c32ed032a553a30d6f9f2beacc709c5286481acc,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-03T14:11:00-05:00,ATLAS-1443: add error codes for posting,79,55,1
+b6941caf6f0e705f2aa022d106c1f77327259ee5,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-03T14:49:00-05:00,ATLAS-1407: add batch step for warehouse load,38,29,1
+4c7ceec51c73591e9cc397acc154a43075fbc52b,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-03T14:51:00-05:00,ATLAS-1646: refactor GL export cache,200,49,1
+ad34409807861bdc0553a8fe7e6586e149fbeddc,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-03T17:08:00-05:00,ATLAS-1527: null-safety guard for validator,48,17,13
+70f2a45dfc6d8f438d4bbb3402a06549d962a956,acme-bank/atlas-devops-infra,jchen,Jing Chen,2026-06-03T17:33:00-05:00,ATLAS-1443: add file writer for GL export,16,5,4
+be86aa374109ea1b898234e2b3e1082555116a66,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-06-03T18:58:00-05:00,ATLAS-1479: add file writer for posting,91,27,2
+6c18ba354427b8bd96773a264c81ebe654fd22f4,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-03T19:54:00-05:00,ATLAS-1564: unit tests for scheduler parser,14,5,2
+92ebadee68a2afe9ed59af0996fd305b8238dd8e,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-04T13:23:00-05:00,ATLAS-1421: config change for statement gen,33,13,2
+6a07cb0c8075510721cbc24a1c86cc82415392d0,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-04T13:33:00-05:00,ATLAS-1403: config change for ingestion,49,13,6
+150199d0c498023826082882cbb5e2bbacac59fa,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-04T13:40:00-05:00,ATLAS-1504: null-safety guard for parser,259,82,3
+0f51cfe0d824b9a408b141df3f94da88d676cce9,acme-bank/atlas-core-batch,rgupta,Riya Gupta,2026-06-04T13:58:00-05:00,ATLAS-1633: null-safety guard for logging,78,9,4
+7f514cb25d152a3ebefe3d31c3bc8fad7306e058,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-04T15:41:00-05:00,ATLAS-1451: refactor GL export cache,72,45,10
+5a397534df2376c1f8ff65e52410d050f60e8c8a,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-06-04T15:48:00-05:00,ATLAS-1492: fix batch step in worklog sync,59,52,1
+dd0dae54f55e88793be22b1cd4aaf243dc58d034,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-04T16:21:00-05:00,ATLAS-1573: refactor GL export SLA alert,42,26,4
+b6facfc0cc1a59922b61f6af398a160e44adb6f1,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-04T17:48:00-05:00,ATLAS-1461: null-safety guard for connection pool,50,38,5
+1d3e06744b9fe7bb26992ce208a798868456ea39,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-04T18:08:00-05:00,ATLAS-1511: config change for posting,122,37,3
+1b8dd48c4cdd80a26588919f63092dbeec066623,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-06-04T18:26:00-05:00,ATLAS-1480: refactor warehouse load connection pool,153,55,3
+c70a9d4f364bc81ebacca39ac5c7e9c1083482d0,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-04T19:29:00-05:00,ATLAS-1484: performance tuning of posting,17,3,12
+14740f7fb7e343c51ea48a5771147f1be378c8ec,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-04T19:35:00-05:00,ATLAS-1518: fix rounding in GL export,93,83,3
+559284937ffd1ead5f419bd6fd8a70bf1f8f8f89,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-05T09:38:00-05:00,ATLAS-1530: refactor warehouse load validator,424,306,1
+00679046745d3f2c0bf5168a5f47962dd2cbbeb2,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-05T10:55:00-05:00,ATLAS-1422: config change for posting,56,19,2
+7bc605ad35bb4b4a92d759f8511e9885dc61a287,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-05T10:55:00-05:00,ATLAS-1471: config change for ingestion,38,31,10
+44243d01f510174e366e099dccf727f80329304b,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-05T10:56:00-05:00,ATLAS-1427: handle retry logic edge case in feed loader,14,5,1
+e9fecb5fa0acb3eb776c2f6caa72c3f663d44446,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-05T10:56:00-05:00,ATLAS-1480: handle file writer edge case in risk calc,28,14,6
+92db69ec316a28d000de594772cd79e38e3979d0,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-06-05T11:09:00-05:00,bump dependencies and fix batch step,47,15,2
+99b3d9b8bf4e320049c7e4b4b0b979c5d1677b4b,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-06-05T11:28:00-05:00,ATLAS-1409: refactor worklog sync date handling,17,13,6
+a497df6e765c783bc936b86bc6ca7201d2be3e66,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-05T12:18:00-05:00,ATLAS-1456: performance tuning of settlement,39,6,11
+571fc6c3756562c1117df52ec8c49292b4b65f3c,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-06-05T14:22:00-05:00,bump dependencies and fix error codes,38,11,2
+08263e41edd515cb7a969c5d2ac1f3baf8a876ae,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-05T15:22:00-05:00,bump dependencies and fix cache,8,1,4
+2cd71cc9bc745ad90ae9da37b0784b71f0098e1b,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-06-05T15:40:00-05:00,ATLAS-1670: refactor risk calc error codes,52,16,1
+61f63caea8a9d280b738efb04c8982285a7f2aba,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-05T16:03:00-05:00,ATLAS-1638: null-safety guard for date handling,35,28,3
+55f3d0cb8da781bd2f7916dca3664333eb200b0d,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-05T17:11:00-05:00,ATLAS-1652: unit tests for gateway currency conversion,26,21,3
+05e14973defd7b8baed77055bb5ddd114e17a86c,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-05T18:26:00-05:00,ATLAS-1527: null-safety guard for parser,14,1,4
+a759a0e5c6d2b33307f6e346f3c4b326b8f3f8d7,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-05T18:52:00-05:00,ATLAS-1407: config change for ingestion,28,3,1
+8cde9dd9616b44ebf44b7e04efd5f09fd9d37a18,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-07T11:58:00-05:00,ATLAS-1418: fix logging in recon,71,54,1
+d6035639507a33372dec17fc669aa16c546dd871,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-06-07T13:37:00-05:00,ATLAS-1418: config change for gateway,12,3,1
+df86d415f0aab7fb7d2bd276c53ebc52b9fe68df,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-07T16:06:00-05:00,ATLAS-1403: performance tuning of posting,31,23,2
+f91374b5689d19ff07c307b587be9c7b05c7a26c,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-08T09:11:00-05:00,bump dependencies and fix currency conversion,31,13,3
+cbdf44c0bfd6041d2adb8c68c49e1f91034aa0f2,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-06-08T09:24:00-05:00,ATLAS-1538: fix date handling in warehouse load,11,9,7
+c04e39696ef43e058964a8a60faa881066edb195,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-08T09:45:00-05:00,ATLAS-1511: refactor scheduler rounding,13,6,6
+f6b1c24780b55a7a8d2c39ec6626afff8d3bdc30,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-06-08T09:52:00-05:00,ATLAS-1427: handle cache edge case in GL export,75,56,1
+ba83022244ebddf0c79805e17b66257c5739d447,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-06-08T10:20:00-05:00,bump dependencies and fix validator,346,93,2
+b9c786fc7ec2c214dd1c71571a48be826893f5e4,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-06-08T11:13:00-05:00,validator cleanup in posting,54,27,2
+10bc4a68aa0bac95ee2349c8e8472c9847c200dd,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-08T12:33:00-05:00,ATLAS-1564: unit tests for gateway SLA alert,10,1,2
+5085b3e8d8396741af528dd7e1406a9e508fc1a5,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-08T12:34:00-05:00,SLA alert cleanup in settlement,19,15,1
+61abc19237249c83f1f959f4324fea6fc9476c71,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-08T12:35:00-05:00,ATLAS-1591: add date handling for recon,50,10,10
+86c15701f94f25e1abe8fbd22e5725abe97af3ad,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-08T13:45:00-05:00,ATLAS-1540: performance tuning of scheduler,21,3,2
+99e8c9928010200f3bacdb104085c7289408e9c3,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-06-08T15:25:00-05:00,ATLAS-1456: config change for risk calc,42,26,1
+e3d663c77fefd6902bf192cba00f70a320452e4a,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-08T15:59:00-05:00,ATLAS-1461: null-safety guard for file writer,32,4,10
+b765223b8d0a2fa4ab8ee1317085df3299acf747,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-09T09:20:00-05:00,ATLAS-1451: performance tuning of posting,69,35,4
+c767800371b8e739caf88426a0f2d1557270f4f6,acme-bank/atlas-devops-infra,jchen,Jing Chen,2026-06-09T10:00:00-05:00,bump dependencies and fix file writer,134,34,9
+7215d4e19b8b26fa5564597314f27296237cbcdc,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-09T10:14:00-05:00,bump dependencies and fix logging,152,97,1
+242cdce515c0ab6a0193528ff674b67417d8341e,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-09T11:29:00-05:00,ATLAS-1480: refactor feed loader rounding,64,42,18
+6bfbb60bff62e820ee1b6441ad97f1845765675f,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-09T14:09:00-05:00,ATLAS-1530: fix parser in scheduler,24,10,8
+4cfdcf7c93d88d9e45954c58d182346e14fcc270,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-09T14:16:00-05:00,ATLAS-1518: refactor gateway currency conversion,109,17,3
+f9a5364f0aaae97f45c97a37d9f99eed53bc4d9b,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-09T14:48:00-05:00,bump dependencies and fix file writer,22,18,1
+66d70da1a626c926c9d71980f4ac0141b7aff7fc,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-09T18:42:00-05:00,ATLAS-1646: config change for ingestion,68,13,1
+f0748bb5d309f2f2793a56b5b69086263ca42821,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-09T19:13:00-05:00,ATLAS-1471: null-safety guard for batch step,20,4,2
+6dd205fd87bb5e341c109418c0ef25b2fe7f0e04,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-09T19:27:00-05:00,ATLAS-1479: handle parser edge case in posting,35,24,3
+dda608c2b4432d452f82289626504941d78d45a5,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-10T11:33:00-05:00,ATLAS-1540: config change for feed loader,10,4,2
+88eb12a0daae79e7da907a6883934be684025ff6,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-06-10T11:51:00-05:00,bump dependencies and fix error codes,36,23,2
+8173aec7354b08fc3d2941f07b735f12b8629798,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-10T12:37:00-05:00,ATLAS-1461: unit tests for risk calc SLA alert,11,4,10
+88213520a956ced3d367f8bbec1b785e9312b3fb,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-10T12:59:00-05:00,ATLAS-1403: handle batch step edge case in risk calc,30,22,4
+8c3cf7be1472ec182daf2edf9dad307d5ebd61f5,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-10T14:38:00-05:00,bump dependencies and fix error codes,8,2,3
+2bc480d45d2dfab5779c85f041b80a31fc1dbbc8,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-10T14:43:00-05:00,date handling cleanup in gateway,135,54,3
+423aa8da9dcfd07eb073055c5144c636ec760587,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-10T16:31:00-05:00,ATLAS-1530: handle cache edge case in risk calc,6,1,8
+8adf047b4476c0dcec37eda5d0f3a6f494c6c81e,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-10T19:19:00-05:00,ATLAS-1519: refactor recon mapper,199,113,1
+03d3fe6b14e909830d9e3d4ba596e83046ed81a8,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-10T19:37:00-05:00,ATLAS-1451: refactor gateway batch step,110,21,1
+f66f1334ccc985df6f7cb5b29a98568c620cfad6,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-10T19:41:00-05:00,ATLAS-1519: config change for feed loader,128,60,3
+76427bfb83696356dc46a874e5b96a8535294034,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-11T09:12:00-05:00,bump dependencies and fix cutoff check,200,99,3
+9adaf7401675749f56dfef836c372c606f24df8f,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-06-11T12:30:00-05:00,ATLAS-1477: config change for scheduler,27,11,1
+1f8fc575ec08b40a3660e1ace5648d7b5175651d,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-11T14:19:00-05:00,bump dependencies and fix cache,18,10,3
+f15510b3462f872a97d05d3f00e2dfee9987666e,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-11T15:05:00-05:00,ATLAS-1497: fix currency conversion in ingestion,63,38,4
+ae428cf7e453782fa7bce997d98896f88ddd9869,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-11T15:45:00-05:00,ATLAS-1544: refactor ingestion mapper,82,46,1
+c2c880eb5b9f5b3c683ccb078e74959b39dd4c73,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-11T16:35:00-05:00,ATLAS-1451: handle cache edge case in gateway,60,36,5
+76c5e6cc90104f54c5c3891488a0327042cf787a,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-11T17:07:00-05:00,ATLAS-1646: null-safety guard for cache,186,64,9
+26f0bd3ce2e720568d668b2fa9ec995a2521b722,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-06-11T18:06:00-05:00,bump dependencies and fix mapper,68,33,4
+edb7941044978b8ecca6be2bd62b5975512fbb11,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-11T18:35:00-05:00,ATLAS-1461: fix rounding in worklog sync,33,22,3
+f74e56e72255b4a8e5218bedd1846dbe081ba657,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-06-11T18:42:00-05:00,ATLAS-1484: handle SLA alert edge case in feed loader,72,18,2
+a126253d6548823bc0f8b320c9185257d057fccb,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-11T18:48:00-05:00,ATLAS-1492: handle parser edge case in feed loader,70,33,7
+f4f5db6a0c32dee0e4bd2f2a15a279301266c933,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-12T12:05:00-05:00,validator cleanup in recon,663,583,2
+c1746073e514a41684e29a40d53c16e708d4b586,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-06-12T12:21:00-05:00,ATLAS-1682: refactor statement gen mapper,25,21,4
+bdb7c1f14e7dd6dc0351bf1a8d5732a63f766c5f,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-12T12:36:00-05:00,ATLAS-1480: refactor worklog sync batch step,19,10,7
+46e356987fc1e952ae9699c7172886a11ca91334,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-12T14:31:00-05:00,ATLAS-1544: add date handling for ingestion,53,32,5
+f2a1b2a55fa8cb805013c50e5e4af5598ed1a956,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-12T14:33:00-05:00,ATLAS-1538: config change for ingestion,30,11,5
+337e44b2531852cdb84310a29a9979860157aa5f,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-06-12T19:56:00-05:00,bump dependencies and fix error codes,15,13,4
+d46dc0d0714e6b513340fff03f88e7ff6d61c5d0,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-14T18:01:00-05:00,ATLAS-1527: null-safety guard for file writer,93,57,3
+2cf9f9fcb4485cdb5b59b60550c0b83c91ebb934,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-14T18:09:00-05:00,ATLAS-1518: fix validator in gateway,196,45,12
+52421bb8b57553a84d12ae80ac1405325ef3754e,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-15T09:59:00-05:00,ATLAS-1591: add parser for feed loader,19,10,1
+a8d7decad67920e0b84ecbb67af0b720ef60d3ea,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-15T10:18:00-05:00,ATLAS-1573: add cutoff check for recon,81,56,11
+92cfa8bdbf362d1ab7fefbdd59b778e877354739,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-15T10:34:00-05:00,ATLAS-1564: add mapper for feed loader,131,107,1
+1860376c777440bd323e20a9c7f489d750389beb,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-15T10:44:00-05:00,ATLAS-1652: handle validator edge case in GL export,10,8,1
+e482c7d54b5b7aeaeb8b07aa9bb706eefd257301,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-15T10:46:00-05:00,bump dependencies and fix retry logic,17,4,4
+19842e735034356359b6ffb2b94d979d6c532d85,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-15T12:54:00-05:00,ATLAS-1451: refactor ingestion SLA alert,170,127,1
+27a78dd64d0d9d5c0831c03cf62c5a0703e75274,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-06-15T13:02:00-05:00,bump dependencies and fix cache,11,9,1
+06a84fe0625c272af6bfcbd5c6180c92ea26d190,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-06-15T13:15:00-05:00,ATLAS-1607: refactor warehouse load batch step,70,34,1
+1c3ed10fe1ab1708e5ef52977af6ea555240c007,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-15T14:43:00-05:00,ATLAS-1516: refactor warehouse load rounding,5,4,11
+cebb7f8652d8cc297cd015c9c17408761cc3abef,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-15T15:13:00-05:00,retry logic cleanup in settlement,141,40,1
+5b02c1b2cb93a9f30396cb17a06f28fee8173371,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-15T15:17:00-05:00,ATLAS-1435: unit tests for settlement mapper,260,108,2
+d60569375553fe2a685e4e76c55dde57a9308b55,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-06-15T15:48:00-05:00,cutoff check cleanup in scheduler,80,40,2
+42a2e5a847e4513c6f39e204665fef928cf6b29d,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-06-15T15:50:00-05:00,cutoff check cleanup in feed loader,142,60,2
+3a5061e6ebacf3fa01fceb83b801e6e76240dc8e,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-15T15:53:00-05:00,ATLAS-1421: fix error codes in GL export,5,3,2
+7e3dae5e8c8e565f926334ce4475257fe7a632e2,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-15T15:54:00-05:00,bump dependencies and fix parser,25,7,1
+d6297c59aa6b15083a6215681298eff00e0b824c,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-15T16:31:00-05:00,SLA alert cleanup in scheduler,238,89,3
+e07ae78112b58964d29738e0e8c83902e31a91d5,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-06-15T16:48:00-05:00,date handling cleanup in settlement,75,56,3
+78ea239300ce7f157cb27a452dbaacbdf806b0ae,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-15T19:19:00-05:00,SLA alert cleanup in risk calc,12,7,1
+101756d19e2218371104e393e1d8879b28196f75,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-16T11:00:00-05:00,date handling cleanup in warehouse load,181,162,1
+0a33ff445325d20ad2877b40c4a4b12ad2118fd6,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-16T11:48:00-05:00,ATLAS-1516: unit tests for feed loader currency conversion,84,17,3
+96edf501db2cf442bbf295d72d17b56ceb1292e4,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-16T13:38:00-05:00,ATLAS-1480: add currency conversion for recon,60,31,6
+dac942c7d7ea1cd34263f07d2511fcb3ec9a7ac4,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-16T14:32:00-05:00,bump dependencies and fix connection pool,57,50,3
+246f5f45ecce0d1f0b399e4a5f82d68798aaa777,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-16T14:49:00-05:00,ATLAS-1421: performance tuning of ingestion,23,15,2
+ad0b331eef654891d6ecd9921e642747a2e3de37,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-06-16T15:08:00-05:00,batch step cleanup in posting,38,11,2
+87ff856ce37e72839851ce27069c5b413ee30b04,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-16T15:49:00-05:00,bump dependencies and fix rounding,24,10,1
+cbf3a0787c8bc70055ae192a292f68c514c0cc22,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-06-16T17:51:00-05:00,ATLAS-1457: fix file writer in feed loader,80,36,10
+822715e6c2f9d2c70182d9fe9643061717d7657a,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-06-16T19:17:00-05:00,ATLAS-1407: handle cache edge case in GL export,99,38,1
+a6e948b8cea9895cba02d1f45445feb86c60d6b9,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-17T09:50:00-05:00,ATLAS-1443: null-safety guard for currency conversion,11,5,5
+7504ec556a2e1df59b26bef53f7553aa626e7a48,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-17T11:35:00-05:00,ATLAS-1474: null-safety guard for connection pool,22,18,6
+4d134348daf070e0f5cee5e34c69779901aa31ce,acme-bank/atlas-devops-infra,jchen,Jing Chen,2026-06-17T12:18:00-05:00,ATLAS-1427: null-safety guard for batch step,216,87,4
+4d7a43db22acfe7a1d76d558c5c46cf9fc398cd6,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-17T12:44:00-05:00,bump dependencies and fix mapper,56,11,2
+492ba87bfa6e09f9282e2dec6d1c40a16248a8c2,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-17T16:11:00-05:00,ATLAS-1633: handle logging edge case in statement gen,61,28,3
+f455e0693b6f777761ca0e8713421470b4890f4e,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-06-17T16:12:00-05:00,ATLAS-1443: config change for feed loader,20,7,1
+d944b302e6d83797477b3f9ac6b4bcfbb4fd39b1,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-17T17:16:00-05:00,SLA alert cleanup in feed loader,39,22,5
+7ec9dc57e2f20c92f899c586dd42c99d0edf6f3f,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-17T18:11:00-05:00,ATLAS-1403: refactor risk calc cutoff check,379,43,1
+bdc631fdf1ce0f2b6e6fd155fba9347cd88de4fd,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-06-17T19:34:00-05:00,bump dependencies and fix cache,39,6,12
+5e59219e088a0e925a95cce0efa1179ca3ca08dc,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-18T09:22:00-05:00,ATLAS-1477: null-safety guard for error codes,60,21,2
+23534460187c6af12486c40099e64186d01f3baa,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-06-18T10:15:00-05:00,bump dependencies and fix cache,88,54,8
+7a9ceadfb1bd6006d1d596453718dd0dbd4dc262,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-06-18T10:34:00-05:00,ATLAS-1670: handle mapper edge case in worklog sync,85,41,2
+a51c872996c5a86ef7963e12181647fac83dd9db,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-18T11:10:00-05:00,mapper cleanup in gateway,13,6,3
+f80a07c8d97551109a7e6feae55240b229539091,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-18T14:03:00-05:00,ATLAS-1519: config change for gateway,9,1,2
+ee2067591e2524eb425592702863963fe8e45541,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-06-18T14:51:00-05:00,ATLAS-1461: performance tuning of gateway,40,14,5
+1daed03495047d77582532139b78dac32058d6d1,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-18T15:33:00-05:00,bump dependencies and fix parser,26,9,2
+b3dca5f549a7c7133176ca2c7dc83bf4b0dc569b,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-06-18T15:44:00-05:00,ATLAS-1421: performance tuning of warehouse load,39,33,5
+9d9fc3577302c37bad1b4003e272fb928c425dfe,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-18T15:56:00-05:00,ATLAS-1421: refactor recon cache,81,45,4
+98ca81f1a623def10c3a44a4ecd3a4c20c7751a5,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-18T17:46:00-05:00,ATLAS-1519: refactor GL export SLA alert,18,4,8
+9e8da180b3974ec700248f195e60db72e2df09d5,acme-bank/atlas-devops-infra,jchen,Jing Chen,2026-06-18T17:53:00-05:00,ATLAS-1457: performance tuning of GL export,11,5,12
+6482305637e5b19c4c672f00606d37ac4fd15c64,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-18T17:53:00-05:00,bump dependencies and fix retry logic,62,18,3
+660c93bc1f41c53180e6e53cc024d947ab6824ff,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-18T19:00:00-05:00,ATLAS-1544: fix validator in settlement,47,5,1
+5a66535db82d5fe91f0c46e597b91a412623fbf8,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-06-18T19:06:00-05:00,ATLAS-1497: null-safety guard for retry logic,14,9,1
+35364d31830dc60e63db34a932b6a9bb3947a1a1,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-19T09:30:00-05:00,ATLAS-1652: performance tuning of scheduler,30,14,2
+cfd476b7c24cf97e664b5a0890cb9585785fe302,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-19T11:09:00-05:00,date handling cleanup in ingestion,31,27,1
+b6e1a62f1913f7d6399366942bafeaa69ffd6859,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-19T12:09:00-05:00,error codes cleanup in warehouse load,31,5,7
+38f3d09c1ce0aae2748eb68e96da3cb13d689cab,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-19T12:56:00-05:00,ATLAS-1456: add validator for warehouse load,64,47,1
+ce03481d4c19d2f2fbac8a872774e943aeff7a7a,acme-bank/atlas-recon-tools,swilson,Sam Wilson,2026-06-19T12:56:00-05:00,ATLAS-1607: fix error codes in feed loader,249,164,5
+199de97e4ce092b4a45f8e23d518353f88950928,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-19T13:21:00-05:00,ATLAS-1544: unit tests for feed loader cutoff check,61,22,1
+080d0f5d1b4ac3e4b51182b417be1d0b51d1ac5d,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-19T14:22:00-05:00,ATLAS-1540: add currency conversion for GL export,115,31,2
+dad9bdbdc2c33f0dcae0c58872d2c4078351e287,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-19T14:52:00-05:00,ATLAS-1421: performance tuning of GL export,79,66,1
+421499f69f5c05749dd517296d41e4f5c30eaf84,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-19T15:23:00-05:00,ATLAS-1456: performance tuning of risk calc,77,35,4
+4f1dcc7790f510127d275c9bf8b79ab9f3b8eb39,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-06-19T16:57:00-05:00,bump dependencies and fix date handling,43,28,1
+6e11c1170971005dfd4c18e798d90dfd051133ae,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-19T17:11:00-05:00,ATLAS-1409: add batch step for recon,36,7,3
+c3dc8062d56a630f694f5fb41df1bf22fed76e2c,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-06-19T17:22:00-05:00,ATLAS-1684: refactor scheduler batch step,25,12,1
+4d6f6abebca6bf1abbd9f4d3ae9f9f584bbdb580,acme-bank/atlas-recon-tools,lmuller,Lena Müller,2026-06-19T17:24:00-05:00,ATLAS-1591: refactor worklog sync validator,68,12,15
+18caad9c87811c02d9960798c7a7396e99a3cee0,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-19T19:46:00-05:00,validator cleanup in settlement,212,124,1
+0f4accb81b91cfac01bb05c20a7fb19430025e8f,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-22T09:09:00-05:00,ATLAS-1530: refactor scheduler date handling,21,18,2
+be95ff5dc4976ba2a681b80f2053af5046594602,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-22T09:47:00-05:00,bump dependencies and fix batch step,84,20,1
+6933604da95a6e3b7caec58053ef41800f4984e4,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-22T10:03:00-05:00,ATLAS-1511: unit tests for settlement connection pool,41,12,1
+529b16a3594f7c61ba479a179a5598ed48cf6500,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-22T10:25:00-05:00,ATLAS-1540: null-safety guard for SLA alert,219,186,5
+286ac874d26de2dd1c4ee445f96c3c203103e491,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-06-22T11:50:00-05:00,ATLAS-1598: null-safety guard for error codes,72,41,3
+c2800010bc42bf294e407ed7b4f510f0be52dc23,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-22T12:47:00-05:00,ATLAS-1422: add SLA alert for risk calc,189,105,3
+4590bcbcf8f7f3877ec5beb9c84ac2c59d0d5038,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-22T12:50:00-05:00,ATLAS-1498: null-safety guard for connection pool,27,4,3
+00c54976bf2589386b59325802a05b9133a64180,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-06-22T13:41:00-05:00,ATLAS-1538: performance tuning of scheduler,24,14,8
+8419227953d37bc5837a3556ea53e6ca5af7850d,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-22T13:49:00-05:00,ATLAS-1540: refactor posting file writer,67,47,5
+e2873326f579cd6bc6909e242c47379b845f939c,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-06-22T14:25:00-05:00,ATLAS-1451: performance tuning of GL export,25,19,3
+6d92a9664ad5f9ca3fd03ec7481760bb965b28af,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-22T17:57:00-05:00,file writer cleanup in warehouse load,39,7,1
+83b1b15e9b6fe9329189518c3cc045c57f14715f,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-22T18:06:00-05:00,SLA alert cleanup in ingestion,2,0,1
+ae71c90d12ba21c3eb607be4bfdcbeec3fd70cb1,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-06-22T18:38:00-05:00,ATLAS-1682: refactor statement gen error codes,16,9,14
+18d5a36a1b4c24ed5a972385ebb04473a0e26546,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-22T19:05:00-05:00,ATLAS-1591: refactor scheduler cutoff check,31,12,1
+56e62532284cb9cd4872d8c63fe9f7375f924d52,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-22T19:17:00-05:00,rounding cleanup in recon,16,6,4
+2f30bc3c10d0b4cce15ecc312c8e485e37f1e650,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-06-23T09:22:00-05:00,bump dependencies and fix cache,73,59,4
+d8298e0eb8358fa2e9ddb48c89012090928e6b75,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-23T12:20:00-05:00,ATLAS-1409: null-safety guard for file writer,6,1,2
+27336726471a53dca0f166299f2ecbe6f2070ca4,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-06-23T15:26:00-05:00,date handling cleanup in feed loader,58,14,1
+16174767013ac47626b1cf87edca551036051be2,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-23T16:52:00-05:00,date handling cleanup in GL export,12,4,3
+b8aaf3c0cd728817e6add68634e85db10c2c2343,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-23T19:10:00-05:00,ATLAS-1474: add retry logic for posting,7,4,8
+7e0d00bc447246a4b150b2935e9b31dec2e5025b,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-24T09:58:00-05:00,ATLAS-1477: null-safety guard for retry logic,13,8,6
+279513f02aeb253992c77b607a2903718fcad35f,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-24T10:29:00-05:00,ATLAS-1573: unit tests for settlement parser,65,34,3
+7d26bb78875bb7a1b14467bead042ffd76147f65,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-24T10:33:00-05:00,ATLAS-1422: handle logging edge case in settlement,22,4,1
+a01433c6dabf2cb96b2d105fc92aaf0f411e9bfa,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-24T10:59:00-05:00,ATLAS-1427: performance tuning of ingestion,270,151,2
+938973d2ea3a035996912f153c92204d21cede7d,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-24T13:16:00-05:00,ATLAS-1561: performance tuning of risk calc,24,8,9
+cc2ab0a2251629bf84d03a9e2f57777254ba1b86,acme-bank/atlas-core-batch,tnguyen,Thanh Nguyen,2026-06-24T13:38:00-05:00,ATLAS-1516: null-safety guard for validator,27,13,2
+179bc335ba3c87fd3c61dc2b022fa879513ddcec,acme-bank/atlas-core-batch,tnguyen,Thanh Nguyen,2026-06-24T14:13:00-05:00,ATLAS-1527: fix connection pool in worklog sync,50,8,7
+cee2e66b0b7eb61b2c91aa3595d792b2a578d0b1,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-24T17:39:00-05:00,ATLAS-1474: fix SLA alert in warehouse load,7,0,5
+00fd7fab6a37fb5737cf2354935897eaf3368844,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-24T18:02:00-05:00,ATLAS-1540: unit tests for risk calc batch step,21,10,5
+a88f925139fa9691d4d954f883d1fc1518a75c77,acme-bank/atlas-core-batch,tnguyen,Thanh Nguyen,2026-06-24T18:54:00-05:00,ATLAS-1511: handle connection pool edge case in worklog sync,57,25,4
+e50c65de7cf0f0a7c556b98c174095b4969cc362,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-06-25T12:28:00-05:00,ATLAS-1673: unit tests for gateway date handling,45,40,3
+0b16d89bebdcf9c1fe39cdd529e962fdc94c4477,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-25T12:32:00-05:00,ATLAS-1538: add batch step for ingestion,10,7,2
+5da4a08a1c754192fe48bff7ac8c2b7cfd6019a4,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-25T13:10:00-05:00,ATLAS-1641: performance tuning of recon,111,33,1
+7eb2b68a6234b9d2b4ad8f0083a619f1532ec6d6,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-06-25T13:54:00-05:00,ATLAS-1474: add currency conversion for ingestion,162,92,1
+b41e4390e2c34ff28e587160304e410768e94902,acme-bank/atlas-recon-tools,swilson,Sam Wilson,2026-06-25T14:27:00-05:00,ATLAS-1621: fix retry logic in ingestion,84,9,1
+3679f665b2a13b20e4869edd69e9f31ffc403d16,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-25T16:17:00-05:00,ATLAS-1418: refactor posting rounding,50,43,3
+523a1c224b7d4d515a371d720b4a7a577433f86e,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-06-25T18:07:00-05:00,ATLAS-1418: performance tuning of feed loader,19,7,3
+9a7cf8b633789365952dffba9e64e830c600378d,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-25T18:24:00-05:00,ATLAS-1471: performance tuning of warehouse load,299,105,2
+68536c4cd19132832f729b7cb4c0eec52cfb774c,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-06-25T18:52:00-05:00,ATLAS-1477: fix logging in GL export,8,2,3
+243594bd26479f040f5a3a74fb32dde5dd3f96b4,acme-bank/atlas-recon-tools,swilson,Sam Wilson,2026-06-25T19:33:00-05:00,ATLAS-1621: null-safety guard for batch step,71,7,1
+aec81efee046e9969f9959d35082221c6ecea5a9,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-26T09:12:00-05:00,bump dependencies and fix validator,299,131,8
+d451960163e9f518a3974e0ccead70d36fd977f5,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-26T09:20:00-05:00,ATLAS-1527: null-safety guard for logging,90,68,9
+19a93a41950120f5ffb3acf1cebaebd717cadbb2,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-06-26T10:15:00-05:00,ATLAS-1538: unit tests for recon retry logic,35,19,5
+bfa11b616ec10291ce0ed8a56ec5881230ae3cc1,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-26T10:24:00-05:00,cache cleanup in statement gen,24,7,7
+392fde6740d9ffbb41cbc8112153f42f30605998,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-06-26T10:26:00-05:00,bump dependencies and fix currency conversion,5,1,6
+4115513aacdb8bcf04bf838875c75e8df369a22b,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-06-26T11:14:00-05:00,ATLAS-1456: handle validator edge case in risk calc,205,164,1
+3d48125c79b4d5d698d9c3361badfdbf0ed4f4d4,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-26T14:04:00-05:00,ATLAS-1519: unit tests for worklog sync rounding,77,68,2
+60a811337d3569ccdce0d8e595cda848dd54268f,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-26T14:07:00-05:00,ATLAS-1544: handle logging edge case in recon,47,14,6
+c92fe67bf9f743f8e0b31c462edff8ef4e602bda,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-26T14:59:00-05:00,file writer cleanup in ingestion,71,60,7
+738d059dcf970292880aa8e20718dfc780786491,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-26T15:41:00-05:00,ATLAS-1421: null-safety guard for retry logic,201,90,1
+85175e26b09657d69264504315cd72cb8181e76b,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-26T16:24:00-05:00,bump dependencies and fix retry logic,23,12,3
+26c3ba4115696b13cfc98dec7b9cd94f3df553fb,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-26T17:25:00-05:00,ATLAS-1552: handle currency conversion edge case in statement gen,28,23,3
+6cdef2e2c6c0dabd44ac6f2a75102d74e1ad2adf,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-06-26T17:28:00-05:00,ATLAS-1564: refactor posting file writer,16,9,1
+aca2c3e6160628f69432f8459b6c4622b25fa420,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-26T18:08:00-05:00,bump dependencies and fix parser,102,73,1
+36358bc973674ef413ceea1956fd8c1e52e3f4b1,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-06-26T18:34:00-05:00,ATLAS-1626: null-safety guard for mapper,281,104,3
+61f89ed5412a66be9065ecd1cbead9b045798148,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-06-26T18:53:00-05:00,ATLAS-1409: handle date handling edge case in statement gen,106,56,1
+1efa1a22939a2ff35a87516b7e604b442a907aa0,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-26T19:27:00-05:00,ATLAS-1418: performance tuning of ingestion,48,41,5
+c6837edd0696c08da0b1aa0c47ad5fa19079c754,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-28T13:58:00-05:00,ATLAS-1492: fix currency conversion in warehouse load,64,13,15
+a9a6272f98c1188233c149c1a9058e61e67cedd8,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-29T09:02:00-05:00,ATLAS-1451: null-safety guard for validator,8,2,1
+1fcb27fb4383bc8fcf6edcd154046abeaebf3562,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-06-29T10:41:00-05:00,mapper cleanup in scheduler,129,29,1
+13daa6ee2739e2197059e7db4b3399cccb5f4a7f,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-29T11:11:00-05:00,ATLAS-1646: null-safety guard for currency conversion,195,24,11
+f6c50b12355692b18e8591788cd64ef932902e05,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-29T12:18:00-05:00,ATLAS-1456: config change for ingestion,19,14,1
+139fbece12495bdfd71e1f0240b1f61f174269fa,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-29T14:13:00-05:00,ATLAS-1477: null-safety guard for SLA alert,190,117,1
+b6f52871c54a71e522925144adcf1fc1905b4e72,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-29T15:23:00-05:00,ATLAS-1492: fix batch step in worklog sync,403,53,5
+d5c7992579c4156c5e11a7d1f0dc61dcaa7199c1,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-06-29T16:04:00-05:00,rounding cleanup in ingestion,39,18,1
+3ef7ae84e8f425a5ad41e5a0c06c9b8f7e3195e3,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-29T17:04:00-05:00,ATLAS-1443: add date handling for ingestion,26,11,3
+f6bcd8d7cb03cea341abab343e3c19bfe64ab863,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-29T18:38:00-05:00,ATLAS-1443: null-safety guard for cache,110,42,7
+8addbfa381d83d9dac80afe4c4c2fd764fc716d0,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-30T09:28:00-05:00,ATLAS-1421: fix date handling in recon,19,10,7
+1f7b75aca44c9be9865a52a5edbb1b1cbca81ba1,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-30T09:42:00-05:00,ATLAS-1407: fix retry logic in feed loader,118,94,9
+72fe29c5aaa504066be6cd7196e9549e5b13a08a,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-06-30T09:48:00-05:00,ATLAS-1540: add parser for posting,322,115,2
+5dcb23eb9d0825aecc5b301f800923c30d5e03aa,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-30T10:58:00-05:00,ATLAS-1646: null-safety guard for batch step,44,4,1
+2de5c82e635029ecae4049c1c7b070ea05b8fef6,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-30T11:03:00-05:00,ATLAS-1421: config change for GL export,52,35,7
+24ef6c087151cf52763969f4c38e0a022c08e5b4,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-06-30T11:32:00-05:00,ATLAS-1484: performance tuning of posting,14,8,7
+df93be656a2815504d73b68be4a9972214fb1574,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-06-30T12:24:00-05:00,ATLAS-1544: refactor risk calc rounding,51,45,2
+8dc213d872aa64985306e546dfe2d2370fafd4aa,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-30T12:49:00-05:00,SLA alert cleanup in worklog sync,90,65,3
+cedd2ec2900852ab7a31b3643db542cec2c84bb0,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-06-30T14:39:00-05:00,ATLAS-1427: handle batch step edge case in settlement,21,14,3
+806490efb739123f7ff7a2f51fffa156799d7037,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-06-30T15:26:00-05:00,ATLAS-1638: add parser for gateway,20,8,5
+23765634b51639a7741af6113d9eb48ceba87d75,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-06-30T15:32:00-05:00,ATLAS-1451: config change for gateway,7,1,2
+ba719e3e84b5c8e9c1db6f4c01bc18f25e779c50,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-06-30T15:44:00-05:00,ATLAS-1684: config change for GL export,36,8,1
+c3d4dacc38f828f34e12bc04a15d2f4e6289207d,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-06-30T16:07:00-05:00,ATLAS-1464: fix error codes in gateway,13,10,1
+b16333f7921decec33d1867b7780ec77cc852311,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-06-30T16:35:00-05:00,bump dependencies and fix cutoff check,40,8,1
+7b21ce0b439d1cc5ecb4201ee69fc5c1f2b3052f,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-06-30T16:46:00-05:00,ATLAS-1544: add logging for gateway,174,38,1
+4bf46f288572880ef00a0925412175f59e814f79,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-30T18:07:00-05:00,ATLAS-1407: refactor scheduler SLA alert,9,6,6
+aca69ff810b7ec03ca2a76757cf64745ca5e7af9,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-06-30T18:20:00-05:00,ATLAS-1422: refactor GL export date handling,205,175,3
+99719a29b0c394dd6dba0e5ebd9b095b8b2d09db,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-01T09:05:00-05:00,ATLAS-1461: add date handling for feed loader,169,27,1
+df5c3c6fea01659c6079b8d6239d1e78206a5f84,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-01T09:43:00-05:00,ATLAS-1544: unit tests for posting error codes,8,5,4
+765f719b598132f73d2a7025d062a5e7c0da5c27,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-01T10:15:00-05:00,ATLAS-1422: performance tuning of warehouse load,17,13,2
+19ddb20aa098e3d93c6abab9bf8af884bd51cd26,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-01T11:58:00-05:00,ATLAS-1544: null-safety guard for retry logic,23,16,2
+aa5a5f18fce74e2d1a7ac22e29deb9ce359a26b8,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-07-01T12:48:00-05:00,ATLAS-1621: performance tuning of statement gen,49,16,1
+06e52e20a76f97171a979b774eac2e441decd163,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-01T15:37:00-05:00,bump dependencies and fix cutoff check,20,6,19
+bd2be18107b9bf9036725c0bd39939a19c165df4,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-01T17:13:00-05:00,ATLAS-1479: refactor GL export validator,18,2,1
+1f6c8eef5a62f96e8464be57533ac92dbfa06062,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-01T19:44:00-05:00,ATLAS-1504: handle batch step edge case in risk calc,132,28,4
+51f6d6827548414e503ee1ddc2adf90536cbb8da,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-01T19:46:00-05:00,ATLAS-1443: null-safety guard for SLA alert,63,22,2
+a009001b48f5846760eef87411508fd33dd4afc4,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-01T19:52:00-05:00,ATLAS-1464: add rounding for scheduler,21,17,1
+7068edb3dfc80f228a9fcc1252ea4639f3f0be33,acme-bank/atlas-core-batch,rgupta,Riya Gupta,2026-07-02T09:22:00-05:00,currency conversion cleanup in GL export,29,24,1
+bc35b6c12d841dfd108ec654bfc87224036cd082,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-02T11:54:00-05:00,ATLAS-1456: add cache for risk calc,37,11,9
+a5681ad066e7e3c981a45c25e0be6b46085cf070,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-02T13:34:00-05:00,ATLAS-1421: refactor feed loader file writer,13,8,3
+dbf48f2d46627d5b01b3fe0db68502e92e7170be,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-02T14:24:00-05:00,ATLAS-1403: refactor risk calc currency conversion,26,9,6
+c8776950525a0b96b4a642713471226cd5789492,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-02T14:57:00-05:00,ATLAS-1498: add date handling for feed loader,136,98,3
+87b8ffd7204019e0b8dcb8823e2249898e7b6e93,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-02T15:52:00-05:00,ATLAS-1421: unit tests for statement gen date handling,16,4,2
+624c0c68e56093e237ac3b8e75cb5c7eab8ffa82,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-02T16:49:00-05:00,ATLAS-1443: add validator for settlement,3,1,1
+5ee54c91ee6000f939684e6b7784d7ea54c17796,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-02T18:19:00-05:00,ATLAS-1474: add SLA alert for warehouse load,121,21,7
+c85490407750930ed1790b7d56e9adec71b7d04a,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-07-02T19:17:00-05:00,ATLAS-1479: config change for warehouse load,113,22,2
+cba4e6b8cddc256d561c8f8702a411c73c6d77bc,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-03T09:29:00-05:00,bump dependencies and fix file writer,55,11,4
+3da3f27cd4e07272ab0af7fc845d8a30aca48ddb,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-03T09:32:00-05:00,ATLAS-1516: handle error codes edge case in scheduler,98,37,1
+3f4622130da4ad6bcd181108432b8f84e3564f34,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-03T09:41:00-05:00,ATLAS-1516: null-safety guard for rounding,36,16,4
+d7da084bcffe4182b379331e500e415941379663,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-03T09:45:00-05:00,file writer cleanup in gateway,25,20,5
+a382ec595b7e5cb39b5a2b91bba6c558d5d728b3,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-03T13:10:00-05:00,ATLAS-1461: null-safety guard for SLA alert,29,6,2
+965b0507ed4330f2674a9855301119bf72d5ed22,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-03T14:33:00-05:00,ATLAS-1480: performance tuning of risk calc,73,33,3
+c845672d61c02635d1fdd797db626b3bbf4ea66b,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-03T15:01:00-05:00,ATLAS-1407: config change for ingestion,29,7,6
+7a975827fcc303f46d279c9f415091019c304b90,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-03T16:02:00-05:00,ATLAS-1641: unit tests for posting SLA alert,7,5,7
+c4f3e72f6cec9271e6781a0ad428ec0c16b2eb6e,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-03T16:21:00-05:00,ATLAS-1538: config change for gateway,61,49,2
+396483c619bc1dba7ef6342e43a971071e8d0da6,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-03T16:37:00-05:00,ATLAS-1421: unit tests for statement gen date handling,47,37,1
+0be5a4c0a40e9666a151b4c22a3323e9ececf458,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-03T17:31:00-05:00,ATLAS-1471: config change for GL export,115,99,2
+4d43fdfae421d14104b27fe1724d1783ae91553b,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-04T10:31:00-05:00,ATLAS-1646: unit tests for GL export error codes,99,45,4
+cc257c52d0a8e49dd0ae782a5cb10895d64bd038,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-04T14:18:00-05:00,ATLAS-1646: refactor gateway error codes,42,8,3
+a82dedfb3c20f9f4580ca480a8ba8a6a8248bc13,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-05T12:43:00-05:00,ATLAS-1461: config change for ingestion,77,29,5
+ef9815f23a985a6324ac93034d5653457688b5d8,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-05T13:29:00-05:00,ATLAS-1477: unit tests for gateway error codes,74,62,3
+05a12bc34c33e5160321472aaab7538854f5adf9,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-05T13:45:00-05:00,ATLAS-1477: handle validator edge case in statement gen,11,2,12
+8aa93350434bb7e9bda4d8a9f8ff5624ac5ba455,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-06T12:06:00-05:00,ATLAS-1461: handle cutoff check edge case in warehouse load,161,57,8
+72c032378e88b3db63c4fe0ce899a7aa9c1a0c3c,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-06T12:38:00-05:00,bump dependencies and fix SLA alert,589,260,2
+f1f6c95338fa792b4182b92425ce0dcaa6b1a3c8,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-06T12:46:00-05:00,ATLAS-1456: config change for ingestion,100,13,9
+c8f241fe311bbd155dc4b3b8207b62a12b14e977,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-06T14:07:00-05:00,ATLAS-1497: unit tests for worklog sync rounding,77,16,4
+82a9067b61ad500c6c0ec845b8ea49ba52b6692c,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-06T15:07:00-05:00,retry logic cleanup in statement gen,17,14,4
+0788b13c9e94b155ce79759bafb1d7f07d45d560,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-06T15:26:00-05:00,ATLAS-1518: add validator for feed loader,16,3,4
+50b8ff47a2752932382f91fe893f488a47b68410,acme-bank/atlas-recon-tools,lmuller,Lena Müller,2026-07-06T15:26:00-05:00,ATLAS-1582: unit tests for GL export batch step,94,63,3
+bbbbb4af844b205fc23796f000b8ab3a8a51e765,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-06T17:04:00-05:00,ATLAS-1538: config change for worklog sync,30,13,3
+fc1bb638e7c548f3965cdd438acf444a1128c8af,acme-bank/atlas-core-batch,tnguyen,Thanh Nguyen,2026-07-06T17:34:00-05:00,ATLAS-1518: add currency conversion for gateway,35,12,1
+10df5eb06bd099a8be81699340694cd41df67cea,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-06T17:48:00-05:00,validator cleanup in worklog sync,23,4,4
+74b09cbe1441e32ff7f0c9c09aec0adf3342f3b2,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-07-06T18:08:00-05:00,ATLAS-1498: add cache for ingestion,29,24,4
+42f591d20f4222de2f19254e8a6e23abb31fb16e,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-06T18:35:00-05:00,bump dependencies and fix error codes,15,12,8
+1d8ac61bcb2cf1ed41e3cc76bff25c3a86255c51,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-06T19:45:00-05:00,bump dependencies and fix cache,728,171,13
+6e547ea56cfe5a9c3b4c7d04a1593446746f38fe,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-06T19:56:00-05:00,ATLAS-1409: refactor ingestion retry logic,10,6,5
+9959843f16f969934cb11b767358426f21dfc02d,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-07T09:07:00-05:00,currency conversion cleanup in warehouse load,45,13,4
+fccb2d24e46f2900165e44700df241ae00af7df8,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-07T09:35:00-05:00,connection pool cleanup in settlement,42,20,4
+ec63720ce6c5182e9cab7ccbd3bb3e753ff6ae4a,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-07-07T11:05:00-05:00,ATLAS-1672: fix retry logic in recon,10,1,1
+6ecc2feabc62955aed0e4beb53a4240a36d37463,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-07T11:44:00-05:00,ATLAS-1518: config change for posting,65,38,4
+37ca592cf27c7bdf0ee18c449159972bb18cd1af,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-07T11:59:00-05:00,ATLAS-1641: null-safety guard for connection pool,9,5,4
+6594b974152158f62be6d526be870be32ac72a75,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-07-07T13:07:00-05:00,logging cleanup in recon,55,7,1
+5be802d7c06b0a190d0413a7bfccfd479780da7e,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-07T14:07:00-05:00,ATLAS-1511: add batch step for posting,109,43,3
+09ab2c26648b5f5a208bf8f0640f509b93d05425,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-07T14:15:00-05:00,ATLAS-1474: add cache for statement gen,28,3,6
+c3eba37a39093cf9a30e04b9cce1e7d055acd6d5,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-07T17:08:00-05:00,ATLAS-1471: unit tests for scheduler cutoff check,16,3,5
+bf2f1f64190617fd112badae5c9ec0c97f725783,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-07T18:06:00-05:00,ATLAS-1474: null-safety guard for batch step,39,5,2
+3125656be5510fac104ab650d7db1f486f90ee34,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-07T18:38:00-05:00,ATLAS-1540: config change for warehouse load,62,45,2
+5b964de778422900c4e257f417529f5c5df9c380,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-07T18:57:00-05:00,ATLAS-1479: unit tests for warehouse load file writer,75,50,7
+8933b2132dcc7c510e8b42b1f9a24f58b762f14c,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-07-08T09:44:00-05:00,ATLAS-1684: null-safety guard for SLA alert,180,160,2
+d327a863daafd4169c7c33b31ca6109a7f67f77c,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-08T10:27:00-05:00,SLA alert cleanup in feed loader,20,6,4
+330a4f797adb6fcddd960dcb8c1204726f572cb3,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-08T15:02:00-05:00,ATLAS-1646: handle connection pool edge case in settlement,18,7,3
+492af46340469b3a846cb65a8f9b8ee0ce75e3de,acme-bank/atlas-devops-infra,jchen,Jing Chen,2026-07-08T15:16:00-05:00,ATLAS-1435: fix file writer in ingestion,14,9,1
+7c8f112572f315e43dda0fdbb30ad15ede12dc7f,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-08T15:40:00-05:00,ATLAS-1638: unit tests for scheduler date handling,79,70,11
+6098622f8aeb86b2d6179873ae050798dd8a7bb0,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-08T18:09:00-05:00,ATLAS-1451: add cache for statement gen,12,10,1
+7ff6f1282a826aa139315a9e2c89db9c506c973d,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-08T18:42:00-05:00,ATLAS-1582: null-safety guard for validator,210,61,4
+c5d9c05808030596e96ba910e6e839621f83348b,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-08T18:53:00-05:00,ATLAS-1409: handle SLA alert edge case in posting,31,15,14
+a6a1afef7627706d7cd1664d2e8dca6e8ef8db19,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-08T19:32:00-05:00,ATLAS-1504: unit tests for feed loader parser,7,1,1
+f5d95de07089fe00cae2ba9a6c152053b94e67db,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-07-08T19:39:00-05:00,bump dependencies and fix connection pool,61,31,1
+e6fe40f5b817ea90c9130a99682538c2829aa571,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-08T19:44:00-05:00,ATLAS-1418: handle connection pool edge case in scheduler,35,30,8
+4cf9c5ff5afbf258759f14de88123ddd663bebf5,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-07-08T19:47:00-05:00,ATLAS-1435: fix validator in recon,11,9,1
+12ee4eb7007902933453f57b32f2ed8757eba93d,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-08T19:56:00-05:00,ATLAS-1516: null-safety guard for mapper,65,29,2
+aa2833b6eadafb0a02fd2745b5ce5c8da3336cde,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-09T09:01:00-05:00,ATLAS-1582: handle cache edge case in recon,4,0,3
+5cd20cd325a8a037ae255badb291cf99c668e121,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-07-09T09:42:00-05:00,ATLAS-1456: null-safety guard for cutoff check,33,20,1
+20cd028aeb9e209730aa43714577e3102297d289,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-09T10:54:00-05:00,ATLAS-1461: refactor scheduler cutoff check,42,10,2
+c9bb12bce9390154813f5ab0fab5042ee60d3b04,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-09T11:56:00-05:00,ATLAS-1498: handle mapper edge case in settlement,16,6,2
+bf30ba38e86d812ac3a524b0a6f4d05d9006384b,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-09T12:00:00-05:00,ATLAS-1422: null-safety guard for file writer,130,44,5
+628556989a7d9b3e6d53a8476cf23058d29b4e7f,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-09T12:02:00-05:00,ATLAS-1474: performance tuning of statement gen,10,4,4
+ad9ef8b02ece86f05f40aeaba93bffc8b3fefb4d,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-09T13:15:00-05:00,ATLAS-1407: fix mapper in GL export,29,10,1
+9b696593bd6da6fff683186c9bf73989669fdc67,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-07-09T13:58:00-05:00,ATLAS-1498: config change for feed loader,68,21,1
+a423b0553179a03d37e128872d2820976b0cab25,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-09T15:13:00-05:00,ATLAS-1538: fix validator in scheduler,37,31,4
+6d1c31edb5fd120128fc7f502791e1dce976be52,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-09T16:05:00-05:00,ATLAS-1474: handle parser edge case in worklog sync,15,3,8
+ff697f23f5d2a7d89a93dd61de9ce60c4f997b7c,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-09T17:04:00-05:00,ATLAS-1544: handle file writer edge case in statement gen,17,13,2
+804990874481e720d03ea7f175684df47c7fc926,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-09T17:50:00-05:00,ATLAS-1427: performance tuning of ingestion,66,33,4
+62b52496c53c395bd9af2c457bc885f905676725,acme-bank/atlas-recon-tools,swilson,Sam Wilson,2026-07-09T19:09:00-05:00,bump dependencies and fix date handling,286,53,3
+407ab24511fe6c734464f34850f00a45cb6a1ad8,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-10T09:08:00-05:00,ATLAS-1477: add logging for statement gen,243,54,1
+3c15637602939beb0dc28741413925588461ba51,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-10T10:04:00-05:00,ATLAS-1427: fix connection pool in worklog sync,69,28,3
+d355423a61cf81a8dff9744ad6fa72cc6acc31ad,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-10T10:05:00-05:00,ATLAS-1427: handle validator edge case in GL export,19,6,2
+ed3b31f9e9bb76d58339ccbe7396e81e327bf7b0,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-10T10:35:00-05:00,ATLAS-1407: performance tuning of gateway,107,28,2
+c2385fc706ffc10f0cfa80e6cd5085c0de33284e,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-07-10T10:44:00-05:00,validator cleanup in settlement,19,7,4
+16fcd2cd7f37eebcf2defb41b07c8d023bac8b9b,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-07-10T10:58:00-05:00,ATLAS-1427: fix logging in worklog sync,116,93,2
+c91d40f341e620d96e93a3d0ee9a869ca8dfea68,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-10T10:59:00-05:00,ATLAS-1474: config change for settlement,8,5,19
+02bd8fd2915c6421886011a5f33e1e2aff202e11,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-10T12:03:00-05:00,ATLAS-1477: handle logging edge case in risk calc,14,5,4
+7a6726459c4ad866d860d5432ff8d22ce207fc00,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-10T13:11:00-05:00,ATLAS-1484: null-safety guard for connection pool,26,5,6
+950841892da34f5ef505d23f5f07e9fb02e95ab4,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-07-10T13:58:00-05:00,ATLAS-1672: null-safety guard for SLA alert,171,98,7
+2fdded83934972991885902c314a09f0759fd533,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-10T14:01:00-05:00,ATLAS-1451: unit tests for settlement validator,20,8,1
+dcb513182df1ca47671471416e994a66d10915d3,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-07-10T17:38:00-05:00,ATLAS-1480: handle retry logic edge case in gateway,13,6,2
+48f3d7cc64e9492cb0fd36d3986911731e524dd0,acme-bank/atlas-recon-tools,swilson,Sam Wilson,2026-07-10T18:05:00-05:00,bump dependencies and fix currency conversion,16,9,2
+dfc4e8fc96e5761506758a822e8ad32b8ff56d2d,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-10T18:16:00-05:00,ATLAS-1422: add file writer for statement gen,33,11,2
+971a936474e0ec581019b803f518b9017b2b67c7,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-10T18:37:00-05:00,connection pool cleanup in risk calc,77,55,4
+08bc1b036318a723ca3626644d7ffb1057362bd2,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-10T19:42:00-05:00,ATLAS-1530: refactor GL export error codes,62,8,3
+95b9bc4d60f07218b35ec0dcb3b361337c0afc4a,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-12T11:02:00-05:00,ATLAS-1471: null-safety guard for cutoff check,204,147,3
+9b3c68ed95efbfdb454a102076d3c2411fa8c8de,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-12T13:37:00-05:00,ATLAS-1477: unit tests for warehouse load rounding,3,2,8
+0464a9af38fa04c6ef6c161ff6c38dfd988d4514,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-12T14:08:00-05:00,ATLAS-1471: unit tests for scheduler SLA alert,45,14,3
+bf82b0ed8ccde6e4700940cd7dd5b6bc4d8916aa,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-13T09:01:00-05:00,ATLAS-1407: performance tuning of GL export,7,5,4
+bdc626be13a5ecb38b86c4e1fe819ec1044d1983,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-07-13T09:12:00-05:00,ATLAS-1672: unit tests for warehouse load file writer,7,1,3
+4f3190e38df752667ac5c765fa9b2f1f8910bf93,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-13T09:18:00-05:00,ATLAS-1519: refactor warehouse load currency conversion,39,30,1
+0d5b6d5f92e22166bb3f045de4aae9a752508ed9,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-07-13T10:02:00-05:00,ATLAS-1451: unit tests for GL export connection pool,21,18,1
+4cfacdc03fabb32d4fdf619bf500ea0825ec605c,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-13T14:14:00-05:00,ATLAS-1407: unit tests for GL export SLA alert,85,12,2
+8ab65170a15c0b3fc7394996cfeafceb0276f2d4,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-13T14:33:00-05:00,ATLAS-1641: fix retry logic in settlement,15,5,1
+2cd99db8917001a8bc4c7ecdd408296e80e3b5bd,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-07-13T15:00:00-05:00,ATLAS-1544: null-safety guard for cache,5,4,3
+d0b7ad0251b1fbbbf7173dcdb2f0ba35be6b27bd,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-13T15:53:00-05:00,ATLAS-1471: fix file writer in GL export,63,29,2
+7f6a34d4498261e16c864a56cda7c4013316be49,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-07-13T15:59:00-05:00,ATLAS-1457: null-safety guard for error codes,13,4,1
+ee43da2c1fd9c7cf445beb10db32b610f69b866c,acme-bank/atlas-devops-infra,jchen,Jing Chen,2026-07-13T16:39:00-05:00,ATLAS-1457: refactor risk calc logging,69,21,1
+511a0ffa10f716adc3000b166fb631de9b97db54,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-07-13T17:09:00-05:00,ATLAS-1673: performance tuning of warehouse load,16,7,6
+0095b9104c2177c17efc119d92c3f6fe92d83a8b,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-13T17:31:00-05:00,ATLAS-1511: unit tests for feed loader SLA alert,54,35,3
+6203fdd0f6aa6750d5433dfe2290dcf9dc86ff7a,acme-bank/atlas-devops-infra,jchen,Jing Chen,2026-07-13T18:09:00-05:00,ATLAS-1456: add validator for worklog sync,29,19,3
+4889e4661b0bdd21a2d238c6a2e9939f35d6e343,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-13T18:33:00-05:00,mapper cleanup in GL export,30,20,1
+8337b23b996bc02a23935f05d74c8c01ccc5e2de,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-13T19:13:00-05:00,ATLAS-1474: handle connection pool edge case in worklog sync,91,59,2
+e47a0615c5f56b70d1696114f7b78bd0ca55b7cc,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-14T09:24:00-05:00,validator cleanup in warehouse load,43,14,7
+85e497632e0b56fd8afd48dfc805c6b2ffde607c,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-14T09:45:00-05:00,ATLAS-1471: refactor statement gen rounding,126,55,1
+9be037bfdcb837f1ba6f0a446deab2a9c8d7d5f9,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-14T10:35:00-05:00,ATLAS-1527: performance tuning of ingestion,16,12,3
+ef481e569311896411c851f99f10898505c15095,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-07-14T10:45:00-05:00,ATLAS-1670: unit tests for worklog sync SLA alert,248,80,2
+5a6cf1b3a1b02cacd017998b6d98cb862dd30428,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-14T11:36:00-05:00,SLA alert cleanup in posting,158,70,5
+5512d35429600563faa45c8a7225a9c0cc57cb3f,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-14T12:06:00-05:00,ATLAS-1443: handle connection pool edge case in GL export,5,2,3
+cf09a65a2b301bf8d6a9afa12cae5bc9bc764eb0,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-14T13:52:00-05:00,mapper cleanup in gateway,489,322,13
+6a83e22b987542c05672fc78fcc076d550860ff5,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-14T13:54:00-05:00,ATLAS-1492: add connection pool for GL export,120,80,10
+e9eafea26dec37334a877900d2f760ea11159d5d,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-07-14T17:44:00-05:00,retry logic cleanup in posting,17,11,2
+1cc5d86c544355966971e6ad98818d3f2076840e,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-14T18:49:00-05:00,mapper cleanup in recon,21,8,4
+f56b1e71bf3f564aad74339f334899f0b595a717,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-07-14T19:00:00-05:00,ATLAS-1669: unit tests for recon connection pool,57,41,2
+d2397ef5d32343894dcbd7a2974a0f186684a423,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-15T09:07:00-05:00,ATLAS-1518: refactor ingestion SLA alert,300,222,2
+921c7a991bc3ca3dece3939c845c297d883f8403,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-15T10:45:00-05:00,ATLAS-1527: performance tuning of feed loader,64,52,19
+97afaba14e262456bc65f163b76896b30b86e053,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-07-15T10:48:00-05:00,ATLAS-1684: add cache for GL export,18,16,3
+b3ce8e331c0cecfc8d0e53628b4e5fdec5acc608,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-15T11:30:00-05:00,ATLAS-1540: handle date handling edge case in risk calc,21,16,4
+1dfb4cf09896f8cfc2e8dcbbe4eac0ba306d9084,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-15T11:57:00-05:00,ATLAS-1474: fix batch step in recon,37,11,40
+bb805ac73a2a6bdc661e838cacdfd1defed74398,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-15T12:41:00-05:00,ATLAS-1435: handle error codes edge case in statement gen,88,71,1
+6cee6fc344859af888546a34ae532bcd69dbf64b,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-07-15T13:17:00-05:00,ATLAS-1479: config change for ingestion,10,5,4
+e7fcb418943f5192627a992edbfee25672f015a2,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-15T13:30:00-05:00,ATLAS-1633: handle rounding edge case in feed loader,19,15,1
+b27563eaccf2434bbf8955952b528c67b1bfa961,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-15T14:50:00-05:00,mapper cleanup in settlement,38,11,5
+44eb478a7026036d94fe5c59041b2171ac17238e,acme-bank/atlas-core-batch,rgupta,Riya Gupta,2026-07-15T15:05:00-05:00,ATLAS-1641: performance tuning of worklog sync,209,168,6
+7555d9c9264b398cadeacf46bb96d8c971812c2f,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-15T18:37:00-05:00,ATLAS-1407: add logging for recon,11,9,2
+d5f0be3a30d116330765f45471c358da9e8e3290,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-15T18:54:00-05:00,ATLAS-1418: null-safety guard for retry logic,72,7,10
+8d5fc5450dba80c32fd3bb300d47d261cbe4ed9d,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-16T10:29:00-05:00,ATLAS-1457: null-safety guard for file writer,25,20,8
+37549253246d19aa2f3b471115cb49072bbae887,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-16T12:18:00-05:00,ATLAS-1464: add logging for recon,10,5,2
+9da729d9aee3923ce799be456037316821ddce59,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-16T12:41:00-05:00,ATLAS-1464: performance tuning of warehouse load,9,4,3
+6c3eb47d59e5b75f122c957230a6b698bad77570,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-16T12:46:00-05:00,ATLAS-1582: handle rounding edge case in statement gen,49,32,5
+c9d6f7d4f92a5028a5330405f1fcfb368d3747cf,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-16T14:22:00-05:00,ATLAS-1538: null-safety guard for cutoff check,27,4,6
+f2e85755549c12488aa156587f88ff352512bc72,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-16T14:30:00-05:00,ATLAS-1409: refactor GL export rounding,42,32,1
+2ffa51334d427dad9c5a432cc203a4693c89903d,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-16T14:53:00-05:00,bump dependencies and fix rounding,26,13,14
+47f187eac5c82a82208274fe26fd6d21a8dbfe81,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-16T15:24:00-05:00,ATLAS-1474: refactor ingestion error codes,60,21,4
+eb8a56f78315da012046267290955b08718740a0,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-16T15:38:00-05:00,ATLAS-1591: handle cutoff check edge case in recon,71,7,3
+912cbf78853d5cbda82b92085f4f61fde3a0e3bb,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-16T15:50:00-05:00,ATLAS-1511: config change for GL export,204,108,2
+82aa88d40cdca73d571e1a7c428005b7bcf7e090,acme-bank/atlas-recon-tools,swilson,Sam Wilson,2026-07-16T16:07:00-05:00,ATLAS-1626: fix batch step in risk calc,41,26,32
+96364112e0689a03768f84e0106fe23979684912,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-16T17:13:00-05:00,ATLAS-1652: handle mapper edge case in GL export,103,67,4
+487a21534f86e5f4cdff152435330bd66d232ce5,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-16T17:20:00-05:00,ATLAS-1418: null-safety guard for batch step,121,17,5
+b253af090bb9cffe8e09f55b2dd302ab71eb484e,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-07-16T17:32:00-05:00,cache cleanup in posting,40,15,3
+cf6907dafde326f2638c045f8f8ac4dc278bcf8f,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-16T17:39:00-05:00,ATLAS-1511: handle parser edge case in recon,33,25,1
+b856fc3e5cfe9fe5e9c30341ff4fc50ad7e974cb,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-16T18:05:00-05:00,ATLAS-1474: null-safety guard for validator,16,6,1
+bb4dc48da7163e0407dbdee6ad3b6a61a1345d77,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-16T18:23:00-05:00,ATLAS-1421: null-safety guard for batch step,41,17,1
+5e44200d2c762a091f9e4adaf3c72fb49f486b9f,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-07-16T18:29:00-05:00,ATLAS-1479: refactor posting mapper,9,1,5
+feb6f4d432d9dc8381907e6f65780fabd54c5fee,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-17T10:32:00-05:00,ATLAS-1504: refactor statement gen currency conversion,67,22,1
+26ffbba4a60d09482c3390d605e38a9ec07849a5,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-17T10:34:00-05:00,bump dependencies and fix mapper,56,39,5
+640ee11348cc1646e8c8f0c4ff787cfbc6bd7b9d,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-17T10:48:00-05:00,ATLAS-1497: null-safety guard for error codes,42,12,1
+69695f6c6e536e74c6e9745839222b8da123ce91,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-07-17T11:47:00-05:00,ATLAS-1672: unit tests for scheduler validator,29,3,3
+512c45066a17306a161c8c0eb6c6d70ee8e54ec4,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-17T13:23:00-05:00,bump dependencies and fix date handling,40,11,6
+09839b5b09e13d1d8a77415c560e97cf112a1545,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-17T13:24:00-05:00,ATLAS-1497: refactor scheduler mapper,16,11,3
+2dc925a528741a5385857e62ab713618897cedde,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-17T13:41:00-05:00,ATLAS-1407: add SLA alert for gateway,14,7,1
+782baa831071b3015ea9a03b7a60c8958a1d1d1a,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-07-17T15:07:00-05:00,ATLAS-1451: fix SLA alert in ingestion,20,15,1
+dc6872737cdd3056f7b7b2da25b4fcac191c6baa,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-17T15:16:00-05:00,ATLAS-1652: unit tests for worklog sync currency conversion,14,4,12
+e85adb29d74b0689de560e1feae39ac1879beb53,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-17T15:26:00-05:00,ATLAS-1530: fix rounding in GL export,32,16,10
+e245c462314332cc9413c9023221eabee6a792d2,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-07-17T17:06:00-05:00,bump dependencies and fix batch step,62,12,1
+8e8d29efe1c0db66823f31712d23c9ef0e0b74a8,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-17T17:15:00-05:00,ATLAS-1573: refactor settlement file writer,71,19,9
+ea67ce2a27e0ec643270ce074ff23f4bebb96399,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-17T18:36:00-05:00,ATLAS-1418: add connection pool for posting,70,35,3
+3b03515f5a9382067acb6232ee5e0dcc28de1d69,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-18T13:07:00-05:00,ATLAS-1418: refactor posting currency conversion,218,119,1
+411abd3bbd0a9efb664be7b91e4752a51c2de039,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-18T14:14:00-05:00,ATLAS-1646: add cache for statement gen,53,16,2
+26fb93166d31aa83d71226049e06ca4dc1c5a2f2,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-19T10:19:00-05:00,bump dependencies and fix logging,26,21,2
+7750e38d4f38a0b2dcabb764b3d0b6f451066f85,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-19T18:39:00-05:00,ATLAS-1477: refactor feed loader rounding,42,31,1
+5368f8b3c524c42a56583c0a2e4fe2a50f5e600c,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-20T09:14:00-05:00,ATLAS-1582: null-safety guard for file writer,5,1,6
+ee99dd9483f9dddc67ce6878c9fbe66f9a04bc64,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-20T12:05:00-05:00,ATLAS-1538: unit tests for feed loader connection pool,20,11,1
+70268f5186f0c2b78000d73ed4f542cb5d792408,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-20T13:55:00-05:00,ATLAS-1464: null-safety guard for date handling,24,14,3
+4d306000727c8b8fe350dfebd1d13df747d29cc8,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-07-20T14:03:00-05:00,ATLAS-1498: refactor risk calc error codes,65,24,2
+09a7266139aea7e44df6f71aea2b137148e5797a,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-20T14:23:00-05:00,mapper cleanup in statement gen,40,17,1
+3fa31af97e8aa0f1b962c22a58fab5aff02ba4e6,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-20T14:32:00-05:00,ATLAS-1409: null-safety guard for logging,6,4,4
+54b64f37ad00f3266660bd00a7e65553a6b9ad00,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-20T16:11:00-05:00,ATLAS-1518: handle cache edge case in scheduler,14,6,1
+75986b1820003f6fedd23b924ad02b2944de2b70,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-20T17:14:00-05:00,connection pool cleanup in ingestion,15,2,1
+83847fedf135177b591774018533e8fafbd08ca4,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-07-20T17:24:00-05:00,ATLAS-1621: unit tests for GL export file writer,21,7,1
+ee51d5a0a1ebd9744ffaba6f064aef7a446bf7e1,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-07-20T18:09:00-05:00,ATLAS-1682: unit tests for gateway cutoff check,20,6,1
+495f266b6acc524f40e814ed3af15a694137e4ff,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-20T18:28:00-05:00,ATLAS-1403: add file writer for posting,12,2,12
+424ad295547cde0995b7206af8ba06c719b57836,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-20T19:43:00-05:00,ATLAS-1544: handle date handling edge case in scheduler,21,17,2
+476d8deee8093550f8cff13de06418ab745529f3,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-21T09:36:00-05:00,ATLAS-1564: fix rounding in risk calc,30,13,3
+c576da6e5f4e098a8df784710c24a5ee62e97f09,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-21T09:59:00-05:00,ATLAS-1544: handle rounding edge case in GL export,5,1,1
+e04a609039fa5919b8d2d2e07d33228fc44634e8,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-21T12:10:00-05:00,ATLAS-1573: null-safety guard for error codes,351,153,2
+6b48988e4d53a2066e2a8ee149962e313e0add08,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-21T14:06:00-05:00,ATLAS-1443: handle connection pool edge case in GL export,34,17,7
+aaa611d4f8150a31cdb56179da5b29bd86f9d308,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-21T14:53:00-05:00,ATLAS-1471: add connection pool for scheduler,49,31,1
+e456813cd5f832e52402dfd97bbc585cacb202eb,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-07-21T15:33:00-05:00,ATLAS-1540: handle SLA alert edge case in feed loader,44,26,2
+fd0b4b05c6d1679782a908c410d31f9a8bd8af88,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-21T16:49:00-05:00,ATLAS-1516: fix mapper in risk calc,78,18,1
+8ab1cc5682b0728cef7b335607ea12b8ac698094,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-21T17:14:00-05:00,ATLAS-1511: config change for gateway,40,6,3
+ad2b9f20ee3b86b230b1c22aaec66fd034508299,acme-bank/atlas-devops-infra,jchen,Jing Chen,2026-07-21T19:47:00-05:00,ATLAS-1456: fix connection pool in recon,169,35,2
+6dfdf98b6ac0311e82b22c89ff8037320592db41,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-22T09:22:00-05:00,ATLAS-1492: null-safety guard for connection pool,110,42,5
+9ee018026df463fe3cfce50948aa09ebca6852f9,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-22T09:31:00-05:00,ATLAS-1474: null-safety guard for error codes,39,9,3
+9934d769bfcd9da3ef743b4c3edb647336e040b0,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-22T13:17:00-05:00,ATLAS-1591: fix currency conversion in gateway,11,8,2
+f6198f26228110c86c93efe00c9a2907056ee7f5,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-07-22T13:28:00-05:00,ATLAS-1403: fix mapper in settlement,34,4,4
+4dca4321bc8ef2d49780bd1ae46a3fdc13a9f1e9,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-22T14:18:00-05:00,ATLAS-1477: null-safety guard for retry logic,33,6,1
+e7363ae8b9dfbbba1db286b9cd861b3fc49c60ab,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-07-22T14:45:00-05:00,ATLAS-1669: performance tuning of feed loader,24,5,1
+4fa0f0d2044beb4cb4b1f5d16b8497a2b85a140f,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-22T17:06:00-05:00,ATLAS-1573: handle cutoff check edge case in gateway,22,10,1
+bbe62b57106cad286f1b7f1313f2dbb6c4c56cec,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-22T17:48:00-05:00,validator cleanup in ingestion,70,35,3
+763b6d812e492ede835b1b2cc5f35af9f2e80780,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-07-22T18:03:00-05:00,ATLAS-1540: add currency conversion for settlement,64,45,7
+9fd25836c368769528e27ebc46f700e5e4407bba,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-22T18:12:00-05:00,ATLAS-1451: add parser for gateway,13,6,1
+c6ffecb24dff6b9ef9973047f361ecab9056cac3,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-22T18:53:00-05:00,ATLAS-1474: handle logging edge case in GL export,60,23,1
+74c93407bb9da46290022983a319e2ad9f20f39b,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-22T19:12:00-05:00,ATLAS-1474: null-safety guard for mapper,21,13,1
+7e66a6c67e3ec6302de4b259279ea0315ca9f6b3,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-07-22T19:13:00-05:00,bump dependencies and fix retry logic,24,5,1
+8a7a2ddfe5aeab4eaae208c246c3096b63106809,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-22T19:37:00-05:00,ATLAS-1538: fix error codes in recon,32,25,4
+11a3460424a28fa5459caefa229e0e431f8600df,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-22T19:57:00-05:00,ATLAS-1457: refactor ingestion date handling,239,39,2
+cd1dcff5f710956bc2b378c3cc4dd762bb738578,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-07-23T09:53:00-05:00,ATLAS-1498: handle mapper edge case in risk calc,61,51,1
+3c6d5240506dd3af2ef8eddeb4758768b72c0e35,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-23T10:05:00-05:00,ATLAS-1477: config change for warehouse load,65,50,3
+ae79fcbf252766fccc30cb57e1c4b716736489cf,acme-bank/atlas-core-batch,tnguyen,Thanh Nguyen,2026-07-23T11:26:00-05:00,ATLAS-1511: refactor worklog sync logging,29,13,9
+608c64b0be08c506396cbf42dcf654b9f7af683e,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-23T11:44:00-05:00,bump dependencies and fix date handling,38,19,2
+38ff8ed8dee49ec03064b3f2bf41130b66cce1a7,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-07-23T12:03:00-05:00,ATLAS-1479: handle logging edge case in recon,5,1,6
+2ba4a45590c5279c9002ac62116a66dddca78f5a,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-07-23T13:20:00-05:00,ATLAS-1613: performance tuning of posting,25,18,3
+0afd7cb0d2e492f02c5e4844c431dedac650e514,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-23T14:46:00-05:00,bump dependencies and fix cache,26,2,3
+9751896dbb4068829131218bea193421f034a49d,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-23T15:02:00-05:00,ATLAS-1504: fix currency conversion in scheduler,39,11,2
+e3f3f016f91e356a6a14028c7f2702783545ce72,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-23T16:34:00-05:00,ATLAS-1464: handle date handling edge case in GL export,114,13,2
+e5e3f625394193c10c7defd0f1b48e45f533434f,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-07-23T19:13:00-05:00,ATLAS-1435: config change for feed loader,32,27,1
+ceb5ca771a1a81918ba00bd67cac887f9a5519fa,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-07-24T09:41:00-05:00,bump dependencies and fix currency conversion,34,14,1
+1c5892dd75fa5d4922edd69c6b80a2cac68826d6,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-24T10:27:00-05:00,ATLAS-1530: null-safety guard for logging,6,1,9
+65ddead537659aedefa840455d74aa50aa7c811e,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-07-24T10:55:00-05:00,ATLAS-1418: handle connection pool edge case in warehouse load,54,17,1
+1f492f06efa4fcf66f7c78dcca37ce65a37e0b23,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-24T11:15:00-05:00,ATLAS-1435: fix cache in risk calc,53,28,2
+71142e841958deab13f4dd45604ae64e2ad7f2c3,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-24T11:24:00-05:00,ATLAS-1540: fix validator in ingestion,14,11,1
+0afc2af6942a2976bb1e74ee83ef05577de761d7,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-07-24T11:46:00-05:00,ATLAS-1409: refactor risk calc batch step,19,10,1
+47cf40a4de199970fb52c2ba2d924eb58e205717,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-07-24T13:02:00-05:00,ATLAS-1652: config change for gateway,67,23,1
+9741e3241e1db8e6a67edca2f4be9c1b7cae2774,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-07-24T13:04:00-05:00,ATLAS-1530: refactor GL export cutoff check,110,97,12
+3308e4b9290f3f66bc6602a0256708a6d64ea69b,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-24T13:42:00-05:00,currency conversion cleanup in worklog sync,190,139,14
+d5750b8f0f20abe2146e16e34333d2c40cb98897,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-24T17:15:00-05:00,ATLAS-1471: refactor ingestion batch step,18,15,2
+6adbbe99f1210839b4851dbe1e2993091c1b05c6,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-07-24T17:53:00-05:00,ATLAS-1492: null-safety guard for cache,41,20,1
+8a5515816f08f13638c7a2bfe94fef97a1cfb4fa,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-24T19:15:00-05:00,ATLAS-1421: unit tests for statement gen logging,12,7,3
+f36b7256b2c21b25a0c2316a6b4b082d9e357f3f,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-24T19:33:00-05:00,ATLAS-1498: unit tests for worklog sync parser,32,7,1
+a7908d6ab8e5aec0e78a3353bf188448c9dde65b,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-24T19:35:00-05:00,bump dependencies and fix cache,22,8,6
+b0961cc11760d13c40c8802e14b79464c9a74f65,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-24T19:35:00-05:00,ATLAS-1564: performance tuning of recon,59,9,4
+c7c15d8a37219f568f29af93a8bf66b8c0909502,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-26T14:25:00-05:00,ATLAS-1464: handle mapper edge case in feed loader,131,55,3
+54c84f118df1ed9e0cfcd700c51c15590b9e90f3,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-26T17:13:00-05:00,ATLAS-1464: handle mapper edge case in warehouse load,70,22,4
+61d31e8191c80d7c01d6a68088ad8618cee6482a,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-07-27T10:12:00-05:00,ATLAS-1673: performance tuning of posting,68,17,5
+4eba715316a52eb6dbda0e481918d31950879923,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-27T10:24:00-05:00,ATLAS-1561: performance tuning of scheduler,33,10,1
+1f8417284d088278ae7fe3f38e8f3ff63509bf68,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-27T10:58:00-05:00,ATLAS-1421: handle currency conversion edge case in posting,46,17,1
+85f17f7980ae1ca8a315189cc310ec6b8a1e178c,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-27T13:45:00-05:00,ATLAS-1427: performance tuning of statement gen,10,3,2
+509ae106171f84d5cef2e2c66f4262ad9c8894fb,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-27T13:48:00-05:00,ATLAS-1498: config change for worklog sync,11,8,2
+97094d2e6d401e913889a991d2daac4bf139c6be,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-07-27T15:40:00-05:00,ATLAS-1596: null-safety guard for error codes,40,18,3
+0bd70f66862708e8c3bb373379a35737b99c58f9,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-07-27T17:08:00-05:00,ATLAS-1443: config change for ingestion,12,1,1
+279b497342ba74877176e2d833182a2dcd8e262f,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-27T17:22:00-05:00,ATLAS-1591: unit tests for warehouse load parser,27,19,4
+67c6c5f6c637a8ffcf8d52ce5d8bf2a370862296,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-27T17:45:00-05:00,ATLAS-1516: refactor settlement file writer,115,95,4
+5862c31d718d1274a6c3d88c8e336a8a236b392a,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-07-27T18:14:00-05:00,ATLAS-1598: refactor posting batch step,33,9,2
+fd387a987b8ad4b52018d383065ea2e7b16c5817,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-27T18:59:00-05:00,ATLAS-1582: config change for risk calc,43,9,2
+f5aad80644ab4b73ae3e4dfd9a7445c651a60794,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-27T19:29:00-05:00,ATLAS-1418: performance tuning of warehouse load,44,29,1
+f39e5a61aa58251e766a848a6761f6bdf226f088,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-07-27T19:53:00-05:00,ATLAS-1480: handle date handling edge case in recon,23,12,1
+d08b09a1cdd0a650c8eb9523adcf8f0e3bf0c1a6,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-07-27T19:55:00-05:00,ATLAS-1479: null-safety guard for rounding,117,28,1
+2d2f52648480a50cf459820903514adca9c78f2d,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-28T09:10:00-05:00,ATLAS-1518: handle parser edge case in worklog sync,12,2,2
+cfe16d9d942d7b90e1f6a5cb342d0aef7b1fb3e7,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-07-28T09:55:00-05:00,error codes cleanup in settlement,46,27,1
+ac16caaa9f76f03c52a1f0399497d3384f979df2,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-07-28T10:28:00-05:00,ATLAS-1451: handle connection pool edge case in scheduler,82,67,3
+5412fbd2a2d184d6c96ea296c0103e8913bed23b,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-07-28T10:35:00-05:00,ATLAS-1687: performance tuning of worklog sync,24,6,3
+0d1f454fb04268e74f6715aa9b653fd6f92ddcc6,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-28T11:20:00-05:00,ATLAS-1582: null-safety guard for error codes,125,54,1
+b827684afa53b81af4a7999308e38281b540a35e,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-28T12:45:00-05:00,ATLAS-1564: fix SLA alert in GL export,71,60,1
+ba4e58385e98b6caaed191101e10dabbef1a37cd,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-07-28T12:59:00-05:00,ATLAS-1479: null-safety guard for parser,14,4,1
+49dd81ffb234fc430035b784773d3abdc598a445,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-07-28T13:43:00-05:00,ATLAS-1682: refactor worklog sync SLA alert,4,1,1
+b71cf3babbb171a5a7b6fe25fc1c03c70a7ab56e,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-28T14:24:00-05:00,ATLAS-1504: config change for GL export,11,8,7
+ee4b1472fa0cceb95fda181fefafd5881753989d,acme-bank/atlas-api-gateway,asharma,Aarav Sharma,2026-07-28T14:57:00-05:00,ATLAS-1409: refactor risk calc currency conversion,52,31,1
+8c6ab6b5b64621fcf32978bfdd28831181ef453a,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-28T17:53:00-05:00,ATLAS-1516: add file writer for posting,202,105,1
+70ed78a1add002aacf450544fd131df1c456262d,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-28T18:01:00-05:00,ATLAS-1511: unit tests for GL export error codes,81,13,7
+292ff1a8fbba237fa0955416d4a3b85adc8d415b,acme-bank/atlas-recon-tools,swilson,Sam Wilson,2026-07-28T19:51:00-05:00,ATLAS-1598: fix mapper in GL export,17,13,1
+80d3c9bf1d89fd09f5b0d23d2c0e8d914cfd6a12,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-07-29T14:03:00-05:00,ATLAS-1479: config change for scheduler,113,19,4
+d55406b39a55a6daf7d2e528cff74933662da780,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-07-29T15:19:00-05:00,ATLAS-1660: null-safety guard for file writer,14,7,8
+bdb87fa00794a57d1208405ade898a35de7b965b,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-29T17:41:00-05:00,ATLAS-1479: unit tests for scheduler cache,95,71,1
+a2d8dbd73b6c304b7d0926009d73673e62796ba4,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-29T18:16:00-05:00,ATLAS-1516: refactor ingestion cutoff check,22,2,3
+712c13d47a1ea0186e49d32a4daae6b0bb645660,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-07-29T19:45:00-05:00,ATLAS-1464: performance tuning of posting,16,13,1
+725826a2a05a44921a23fd1814efd6a2acfa51aa,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-30T09:13:00-05:00,ATLAS-1409: unit tests for worklog sync rounding,6,3,4
+ea58263308523a837202476106e4d9477ebf43b7,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-07-30T10:40:00-05:00,ATLAS-1409: config change for feed loader,169,144,1
+8302da6072da86044022ebff523d3f94e9a0546f,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-30T11:16:00-05:00,ATLAS-1518: config change for recon,11,6,7
+45fe3ba9ddf9abd565334f63ef918bf8688e8f73,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-30T12:05:00-05:00,ATLAS-1497: fix SLA alert in warehouse load,93,39,5
+ef30bd9ff4f19c7ef1dcdf9db60f149fb19bb05d,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-30T12:46:00-05:00,ATLAS-1407: fix cache in ingestion,107,22,1
+713858bc6e9d9f9ed126412973ca79843e22c387,acme-bank/atlas-recon-tools,swilson,Sam Wilson,2026-07-30T13:42:00-05:00,ATLAS-1596: null-safety guard for connection pool,443,191,11
+69d9f117ddea7abe878b480a565498128acf3557,acme-bank/atlas-recon-tools,swilson,Sam Wilson,2026-07-30T15:14:00-05:00,ATLAS-1607: fix cache in scheduler,19,5,1
+da7bdcdc20e0af1e476ce63bdc0de033ad5bfee4,acme-bank/atlas-recon-tools,lmuller,Lena Müller,2026-07-30T16:19:00-05:00,ATLAS-1561: fix file writer in worklog sync,48,25,4
+30617a3d2dfecfffb1618f3937556023f8116624,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-07-30T16:28:00-05:00,ATLAS-1480: handle currency conversion edge case in worklog sync,39,20,13
+f938986504764a266cb8f5ac14ebfae6048abcf4,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-07-31T09:03:00-05:00,ATLAS-1682: refactor settlement date handling,200,151,1
+7793b6a29dcc8330b68887080d47e5daf3b63d24,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-31T14:10:00-05:00,ATLAS-1403: add retry logic for recon,26,14,3
+be26b92cfc2e544394da93828d79209034f10ef2,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-31T16:13:00-05:00,ATLAS-1498: add logging for recon,14,6,8
+f22bdbf5951a59e3aa4966350411b97d89ffcd9f,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-07-31T17:05:00-05:00,ATLAS-1591: handle batch step edge case in feed loader,90,77,1
+c3fb50f55678ab70e2bf055f758d307eeebab04e,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-07-31T17:08:00-05:00,ATLAS-1484: refactor warehouse load file writer,121,47,1
+02b2844c47305ed09f3213bc898022f254b12ebb,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-07-31T17:31:00-05:00,bump dependencies and fix SLA alert,46,34,6
+b110974662dbaf758f5aa54c1de151294af44a17,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-07-31T18:16:00-05:00,bump dependencies and fix error codes,7,6,2
+940663997c0f85fbb99fec7b0736a3e49a525f19,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-08-02T11:13:00-05:00,ATLAS-1687: handle parser edge case in statement gen,65,24,3
+505c7cac67abfd859a8fd8a6c149a25b59e5f247,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-08-02T13:31:00-05:00,bump dependencies and fix error codes,36,16,4
+de10fbd087c29b821ce05b569c936d4131ab4f5c,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-08-03T10:34:00-05:00,ATLAS-1464: performance tuning of risk calc,67,57,1
+e7336ae3d33d363ed364b26e550539f45833ea39,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-08-03T10:39:00-05:00,ATLAS-1492: performance tuning of statement gen,89,39,1
+435eb4bfd0da0c3d547c54085a598b3ae5b86fb1,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-08-03T11:55:00-05:00,ATLAS-1421: refactor GL export parser,73,64,2
+728683d31e9a2d740f7e99ceeeb75e9afdbca7bf,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-08-03T12:40:00-05:00,ATLAS-1673: add retry logic for ingestion,34,24,2
+5c4585f28c0a8ca6efa48ac25acaaaf09c9b1cc9,acme-bank/atlas-recon-tools,swilson,Sam Wilson,2026-08-03T13:42:00-05:00,rounding cleanup in scheduler,24,10,2
+c4f525190c49e9f826529c0e0ada42c0e1026d98,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-08-03T14:09:00-05:00,ATLAS-1418: handle error codes edge case in posting,7,1,5
+17b6122ee8e842f869d47afdc1d708d115276598,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-08-03T15:09:00-05:00,ATLAS-1684: fix retry logic in statement gen,11,1,5
+50098ba05ac4ca9664a4b8244d7ce54753fd558e,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-08-03T16:11:00-05:00,ATLAS-1479: null-safety guard for connection pool,6,2,1
+e03e9b0dec03e3a640033f38c6d2cedfb7261224,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-08-03T17:11:00-05:00,ATLAS-1669: refactor statement gen currency conversion,24,10,6
+873cf539c454010bfa48c8af90c2e98d512be8d5,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-08-03T18:34:00-05:00,ATLAS-1474: handle connection pool edge case in scheduler,35,30,7
+2f1fd7310d5b64743bdca2cd4df4e9c24d4b356d,acme-bank/atlas-recon-tools,lmuller,Lena Müller,2026-08-03T18:57:00-05:00,ATLAS-1564: add retry logic for warehouse load,99,40,7
+77c3ab93c22e7e17b87e121807fb75645f5b0f3d,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-08-04T09:25:00-05:00,ATLAS-1497: add parser for scheduler,32,16,3
+ef22ea7d608e93671261cc905c858dda727cc024,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-08-04T09:41:00-05:00,ATLAS-1540: refactor scheduler retry logic,14,8,1
+345b703c6249f0aa108166e0f2ccd7e9b6b429ed,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-08-04T10:28:00-05:00,bump dependencies and fix date handling,24,9,4
+003fc0024af57f257efb5ecdfb43782c00ae323a,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-08-04T11:13:00-05:00,ATLAS-1484: handle rounding edge case in GL export,11,5,7
+bfc93f59cee03f64a7fd596278682151d3735522,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-08-04T11:16:00-05:00,ATLAS-1471: fix currency conversion in feed loader,18,14,1
+05921d6d7f0be8811d83f1057c622289b424f41f,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-08-04T13:09:00-05:00,error codes cleanup in worklog sync,139,35,1
+a553004b96ce5a37e5493a51776278b2a859d260,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-08-04T13:31:00-05:00,ATLAS-1518: refactor risk calc logging,75,41,1
+7d3ab5c77433c80d87f36a56a42483e4505e5102,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-08-04T13:37:00-05:00,retry logic cleanup in posting,44,4,2
+afef00cbc4c522ee365530c409b0e77292a7d28c,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-08-04T13:51:00-05:00,bump dependencies and fix currency conversion,103,13,1
+734162736779dc56ae2cb11b5e5ef587cd80aa9a,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-08-04T15:13:00-05:00,ATLAS-1530: performance tuning of statement gen,222,83,3
+aeafa5ed78be1ba9a5ff72731af021cafae64e5f,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-08-04T15:58:00-05:00,ATLAS-1422: performance tuning of recon,61,23,1
+76cd201435b41959ba639b2e63e3823decf86cac,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-08-04T16:13:00-05:00,ATLAS-1403: unit tests for gateway validator,58,35,1
+4a54c74ba1ce0506364575cae0fb64a0258fe804,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-08-04T16:35:00-05:00,ATLAS-1682: unit tests for settlement currency conversion,197,46,14
+06f6ee2093cf2230e6df31db1379d21caea6ac38,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-08-04T17:10:00-05:00,ATLAS-1484: unit tests for warehouse load date handling,93,27,1
+5f8fecdc5b64c54705826013607f1874ad5f5df2,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-08-04T17:43:00-05:00,ATLAS-1519: handle batch step edge case in GL export,61,38,2
+d5db9555ec23bf238a8f9a41a4a2c9ab3e94001f,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-08-04T18:43:00-05:00,bump dependencies and fix connection pool,31,20,3
+c0001dbdca2425a677a1d3a32ad81828acc4a2c5,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-08-04T18:47:00-05:00,ATLAS-1687: handle rounding edge case in warehouse load,16,2,1
+159840ee8c25c7acf33ae766e25a3cdca29421f9,acme-bank/atlas-api-gateway,swilson,Sam Wilson,2026-08-04T19:14:00-05:00,ATLAS-1598: add file writer for scheduler,28,22,1
+db03c2b3659f53c2c46825eaa3f77c7163f3149c,acme-bank/atlas-recon-tools,lmuller,Lena Müller,2026-08-04T19:19:00-05:00,validator cleanup in GL export,16,4,3
+a953b7adfac96e42778a2e14cbce2e7be83729af,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-08-05T09:47:00-05:00,ATLAS-1540: add date handling for feed loader,55,45,2
+d6dc0f0eeff7a4f18f51d3960bc61de00f880790,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-08-05T10:18:00-05:00,rounding cleanup in settlement,23,19,3
+c29761d1571fbc42bdf8b2719d4aaa7e6da031ed,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-08-05T10:22:00-05:00,ATLAS-1682: handle error codes edge case in worklog sync,191,75,1
+58d271582704608023a8258698d8d1555424fa38,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-08-05T11:30:00-05:00,rounding cleanup in risk calc,19,9,5
+f4156f1166c61406e84977bfa2621eaf01fa45de,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-08-05T11:53:00-05:00,ATLAS-1474: handle rounding edge case in settlement,127,77,1
+dd01857b4685af1db5935a1670f9812e18b9a0b1,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-08-05T12:34:00-05:00,ATLAS-1451: performance tuning of worklog sync,5,1,7
+6f4fee30f4ae3c431beb0fe86ef0537f059b3543,acme-bank/atlas-recon-tools,mrodriguez,Maria Rodriguez,2026-08-05T12:42:00-05:00,ATLAS-1477: fix date handling in feed loader,3,2,2
+d9a9573e8934fe4f528deee46569f918a4381173,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-08-05T12:56:00-05:00,parser cleanup in scheduler,11,4,1
+25fa3e32b163623addc458f9b478b5afc23e0d44,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-08-05T14:10:00-05:00,ATLAS-1530: performance tuning of statement gen,467,213,13
+ea4d7805f2ff53112b834ed534a8a6d6087da638,acme-bank/atlas-devops-infra,jchen,Jing Chen,2026-08-05T14:22:00-05:00,ATLAS-1443: performance tuning of feed loader,112,81,2
+fc36938be3fe5835235b5fb1013e9afafba1322c,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-08-05T14:34:00-05:00,ATLAS-1552: fix cache in scheduler,89,38,1
+17d4f7c863dc7e5003ab6cf92808e3cb3e9ea483,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-08-05T16:13:00-05:00,ATLAS-1403: config change for recon,448,61,5
+448dc8f01b36d6568dca82c6386614e141f6d22b,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-08-05T17:29:00-05:00,ATLAS-1484: fix mapper in GL export,8,5,3
+362f2fd44a1f792c547c28b83f08a9867a014959,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-08-05T17:41:00-05:00,ATLAS-1457: handle date handling edge case in worklog sync,77,30,11
+c5b6500a4f81acf8ebe244d8f21b683076ed996f,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-08-05T18:12:00-05:00,ATLAS-1484: null-safety guard for date handling,722,105,5
+6503fdd9364a2f7ee136cb170c79c1ebf62820fc,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-08-05T18:51:00-05:00,ATLAS-1474: null-safety guard for connection pool,51,36,1
+c460d1c9de1ae56103aed3cec3534dbb25e2074f,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-08-05T19:47:00-05:00,ATLAS-1498: config change for settlement,44,33,5
+754114ebd5146a7a834ae8d2a4bc32ff8fe597ab,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-08-06T09:42:00-05:00,ATLAS-1471: add parser for risk calc,16,11,2
+02ab42278e593babf15d8202f60eaad472798236,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-08-06T09:57:00-05:00,ATLAS-1403: unit tests for posting currency conversion,9,1,2
+1c9387eb175b5d1956e5697a3392a47d580ff419,acme-bank/atlas-core-batch,kpatel,Kiran Patel,2026-08-06T10:50:00-05:00,ATLAS-1484: add parser for statement gen,132,37,5
+22c90b185cd6bb8ea93966e0edcb92b7f2495d1a,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-08-06T11:23:00-05:00,ATLAS-1538: add connection pool for feed loader,243,130,2
+4f7b352e2df2528770aac7211fa049e96854943f,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-08-06T11:40:00-05:00,ATLAS-1538: null-safety guard for date handling,38,26,3
+d82ba3078e6e796dd4ac23e678f265fc0aff9c02,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-08-06T11:52:00-05:00,ATLAS-1573: fix mapper in posting,42,30,1
+c0707527f61291c3d708a4963eccbf21bf9072fa,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-08-06T12:35:00-05:00,ATLAS-1518: handle rounding edge case in scheduler,101,24,1
+fb750ea7718b04d3ec90ba2cf12a4a87b48d2463,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-08-06T13:43:00-05:00,ATLAS-1403: fix retry logic in ingestion,13,6,1
+9acccdc10f4b5a92c5ea4fe1f74257432768ffba,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-08-06T14:21:00-05:00,ATLAS-1573: fix error codes in worklog sync,7,4,5
+ce29cff8497e6e3b456af3da4c308574b3dc8536,acme-bank/atlas-api-gateway,dokafor,Daniel Okafor,2026-08-06T14:24:00-05:00,ATLAS-1544: fix SLA alert in scheduler,309,223,4
+117a72bb62845bc60e61a1abc1c0da3257e74921,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-08-06T15:21:00-05:00,ATLAS-1409: performance tuning of ingestion,44,26,4
+bf15cb615536ea00acdd64fa39ef0086ca65fc88,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-08-06T16:54:00-05:00,ATLAS-1427: config change for ingestion,49,26,1
+b469f91a53f8488b73492685a3fb77092f78886b,acme-bank/atlas-data-ingest,asharma,Aarav Sharma,2026-08-06T17:32:00-05:00,ATLAS-1421: add mapper for feed loader,117,42,1
+d724e91108dec6ed831b30dd2ab22b695a74317d,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-08-07T09:07:00-05:00,ATLAS-1427: add date handling for settlement,34,12,1
+c853ba65baa62c13116b46c200d8fad969aa42d7,acme-bank/atlas-risk-engine,jchen,Jing Chen,2026-08-07T10:16:00-05:00,ATLAS-1443: refactor posting validator,79,24,13
+006ed4b7bd42c47d73a09baa596809fb1c34f003,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-08-07T12:38:00-05:00,ATLAS-1427: null-safety guard for error codes,110,36,1
+c5ad3476a6bf272f5bb124b45716e7fdf6eaa76a,acme-bank/atlas-recon-tools,swilson,Sam Wilson,2026-08-07T13:15:00-05:00,bump dependencies and fix rounding,13,10,4
+97bfe571fa1c8bdabfb7f61088891201a9720942,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-08-07T13:25:00-05:00,ATLAS-1409: performance tuning of statement gen,28,19,13
+5ef5966fc2685fcd83c0dcec69db1bf1e9554d6c,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-08-07T13:33:00-05:00,ATLAS-1504: fix date handling in GL export,8,2,1
+edd45b6d1c276c034d77a89a0e7f88e292f2fd52,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-08-07T13:44:00-05:00,ATLAS-1422: config change for recon,227,38,3
+a7d8224f9fde1a41407c5756e0b8be7a7c30c8c7,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-08-07T13:56:00-05:00,ATLAS-1518: refactor worklog sync logging,82,43,1
+ecabff53cd8575cccf5b7ab8d95118469779cb91,acme-bank/atlas-data-ingest,efoster,Ethan Foster,2026-08-07T14:45:00-05:00,ATLAS-1682: config change for statement gen,44,9,4
+5a9f4c970d6cf33b65a5f979030dde9b1921fd92,acme-bank/atlas-risk-engine,dokafor,Daniel Okafor,2026-08-07T15:48:00-05:00,ATLAS-1538: unit tests for GL export error codes,14,5,1
+3ae7eace66408676064ae9cd5f4d317c12c798d5,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-08-07T18:26:00-05:00,ATLAS-1591: unit tests for worklog sync mapper,23,5,1
+896dd2df5715c3ea036f8103840c190bb241f2a6,acme-bank/atlas-core-batch,efoster,Ethan Foster,2026-08-07T18:32:00-05:00,ATLAS-1684: fix logging in recon,27,13,5
+d0851ad88ac96029862a70341f3a665b7e320945,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-08-07T18:37:00-05:00,ATLAS-1497: refactor gateway error codes,17,6,2
+f15d4db099048eb65fbd5f41084b34699f7c62c4,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-08-10T09:49:00-05:00,ATLAS-1443: config change for risk calc,6,1,2
+854ae750274ec95ff91bfb089697cf056eca5f91,acme-bank/atlas-devops-infra,kpatel,Kiran Patel,2026-08-10T10:06:00-05:00,ATLAS-1484: add SLA alert for posting,30,5,3
+26da04d3025a1fcaa4ee554fc4442ec83083f9a4,acme-bank/atlas-api-gateway,lmuller,Lena Müller,2026-08-10T10:23:00-05:00,ATLAS-1573: null-safety guard for error codes,40,16,4
+b3772d3123f23475b2bff4eb418c11434badd5b5,acme-bank/atlas-recon-tools,swilson,Sam Wilson,2026-08-10T11:05:00-05:00,ATLAS-1619: null-safety guard for error codes,146,29,2
+30bb5a21ae455c034f15b0ad2b62d386b65a06ba,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-08-10T13:42:00-05:00,retry logic cleanup in ingestion,3,2,5
+88c138bcd7519aad83c8f62d9819e9974ba0f2b0,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-08-10T14:46:00-05:00,ATLAS-1427: fix date handling in worklog sync,5,1,5
+9ae8a439144e3a40b19d5940af0578efe7ae8ff8,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-08-10T15:20:00-05:00,bump dependencies and fix SLA alert,68,22,13
+9cb824c3b231a5d7f0c125150795a1f6285306ec,acme-bank/atlas-data-ingest,mrodriguez,Maria Rodriguez,2026-08-10T16:24:00-05:00,ATLAS-1474: add currency conversion for recon,27,13,4
+386fee1ccdb6b7137d94b1ca3866ae695ac43cca,acme-bank/atlas-core-batch,asharma,Aarav Sharma,2026-08-10T16:35:00-05:00,ATLAS-1418: unit tests for ingestion cache,31,14,1
+ee29178c1054220e74fe6732d48c3ce1961c9831,acme-bank/atlas-core-batch,jchen,Jing Chen,2026-08-10T16:51:00-05:00,bump dependencies and fix cache,116,52,2
+9f6d0748350f59ab9e99e7158177535310f696ea,acme-bank/atlas-risk-engine,tnguyen,Thanh Nguyen,2026-08-10T18:32:00-05:00,ATLAS-1518: add cache for GL export,409,261,1
+95273d5906d25589f3903faa35f2f9c506d6ba60,acme-bank/atlas-data-ingest,kpatel,Kiran Patel,2026-08-10T18:33:00-05:00,ATLAS-1497: handle cache edge case in statement gen,27,5,11
+ba73a7673fb804c923be302162a0a1650584821d,acme-bank/atlas-devops-infra,rgupta,Riya Gupta,2026-08-10T18:51:00-05:00,connection pool cleanup in posting,19,7,7
